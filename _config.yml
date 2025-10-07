@@ -10,7 +10,7 @@
 ############################
 
 # Name of website
-title: The Rice Philharmonics Website
+title: The Rice Philharmonics
 
 # Your name to show in the footer
 author: Phils
@@ -136,7 +136,7 @@ keywords: "rice, phils, philharmonics, acapella, university, singing, music"
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-page-col: "#FFFFFF"
+# page-col: "#FFFFFF"
 text-col: "#25272c"
 link-col: "#008AFF"
 hover-col: "#005fb7"
@@ -153,7 +153,7 @@ footer-hover-col: "#0085A1"
 
 #navbar-img: "/assets/img/bgimage.png"
 #footer-img: "/assets/img/bgimage.png"
-#page-img: "/assets/img/bgimage.png"
+page-img: "/assets/img/2024phils.jpeg"
 
 # Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
 #mobile-theme-col: "#0085A1"
