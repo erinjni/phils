@@ -9,6 +9,9 @@
 # --- Required options --- #
 ############################
 
+url: "https://erinjni.github.io"
+baseurl: "/phils"
+
 # Name of website
 title: The Rice Philharmonics
 
