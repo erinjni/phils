@@ -10,7 +10,7 @@
 ############################
 
 # Name of website
-title: "/assets/img/PHILS LOGO NO RICE.PNG"
+title: The Rice Philharmonics Website
 
 # Your name to show in the footer
 author: Phils
@@ -39,7 +39,7 @@ round-avatar: false
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
-#title-img: /path/to/image
+title-img: /assets/img/PHILS LOGO NO RICE.PNG
 
 
 #####################################
