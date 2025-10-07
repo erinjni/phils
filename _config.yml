@@ -20,11 +20,11 @@ author: Phils
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  About: "about"
+  Members: "members"
+  Auditions: "auditions"
+  Media: "media"
+  Book Us: "https://docs.google.com/forms/d/e/1FAIpQLSf9WKgxZrQroKblc7k8FRaAFvB76R0U6dvr3LiUFPmmgfmBZg/viewform"
 
 ################
 # --- Logo --- #
