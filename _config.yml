@@ -10,7 +10,7 @@
 ############################
 
 # Name of website
-title: The Rice Philharmonics
+title: "/assets/img/PHILS LOGO NO RICE.PNG"
 
 # Your name to show in the footer
 author: Phils
@@ -32,7 +32,7 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/PHILS LOGO NO RICE.PNG"
+# avatar: "/assets/img/PHILS LOGO NO RICE.PNG"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: false
@@ -140,7 +140,7 @@ page-col: "#FFFFFF"
 text-col: "#25272c"
 link-col: "#008AFF"
 hover-col: "#005fb7"
-navbar-col: "#f5efe9"
+navbar-col: "#FFFFFF"
 navbar-text-col: "#25272c"
 navbar-border-col: "#DDDDDD"
 footer-col: "#EAEAEA"
