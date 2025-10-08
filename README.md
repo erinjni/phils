@@ -6,32 +6,28 @@ This is the official website for **The Rice Philharmonics**.
 
 ## Phils Website Repo Guide
 
-- [IMPORTANT](#important)
-- [config.yml file](#config)
-- [includes/layouts](#includes)
-- [pages](#pages)
+- [IMPORTANT](#IMPORTANT)
+- [Configuring pages](#config)
+- [Adding new pages](#pages)
 - [other notes](#other)
 
-# important
-As the new Phils Webmaster, you have been bestowed with the honor of managing The Rice Philharmonics Website! If you are not Webmaster starting Fall 2028, disregard this section and keep reading. If you are currently in the Fall 2028 semester, however, the following information is absolutely critical. Disregard this section and catostrophic things will happen. Please pay attention:
+# IMPORTANT
+As the new Phils Webmaster, you have been bestowed with the honor of managing The Rice Philharmonics Website! If you are not Webmaster starting Fall 2028, disregard the rest of this section and keep reading. If you are currently in the Fall 2028 semester, however, the following information is absolutely critical. Disregard this section and catostrophic things will happen. Please pay attention:
 
 The website is currently being hosted on [IONOS](https://login.ionos.com/identifier#). The login info can be found in the Google Sheet named "Phils Web Account Details". I lowkey hate them because they called me and we had such a great chat and suddenly I was paying for 3 new packages that I did not want and had to call customer support to cancel them again and it took FOREVER. Anyways, our contract will end in 2029. If you're the new webmaster for the Fall 2028 semester, you face a difficult choice. 
 - **Choice #1**: Renew the IONOS contract. As of 2025, it costs $85 for 5 years. Maybe worth it, who knows.
 - **Choice #2**: Get a Rice website domain to host for free. Email helpdesk@rice.edu for a new custom Rice domain. phils.rice.edu would be nice. Hypothetically this method works according to my friend, so try it out.
-The future is in your hands. I believe in you. Now keep reading.
+
+Choose wisely, the future is in your hands. I believe in you. Now keep reading.
 
 # config
 
-The _config.yml file is where we set the basic basic stuff for the website. The most important stuff are:
+The [_config.yml](./_config.yml) file is where we set the basic basic stuff for the website. The most important stuff are:
 - **navbar-links**: This sets the pages shown on the navigation bar and which markdown (md) files or links they link to.
 - **social-network-links**: This configures what social medias we want to include in the footer.
 - **colors**: This sets what colors are used for the navbar, footer, pages, and text. 
 
-That's lowkey all you need to know for that.
-
-
-# includes
-The includes set the basic layouts for the footer, header, navigation, and social media links. The layouts are base layouts for the pages. If you ever decide the layouts look booty cheeks, you can change it up here. Just be careful of the dependencies with other stuff, if you change one thing in like base.html it'll change everything that's using it, so pay attention to that.
+The [_includes](./_includes/) and [_layouts](./_layouts/) are where you set the basic layouts for the footer, header, navigation, and social media links. The layouts are base layouts for the pages. If you ever decide the layouts look booty cheeks, you can change it up here. Just be careful of the dependencies with other stuff, if you change one thing in like base.html it'll change everything that's using it, so pay attention to that.
 
 
 # pages
@@ -44,8 +40,6 @@ This is copied straight from Beautiful Jekyll:
 > In contrast, look at [`tags.html`](./tags.html). That's how your write HTML - not as pretty. So stick with markdown if you don't know HTML.
 > 
 > Any markdown or HTML file that you create will be available on your website under `https://<yourusername>.github.io/<pagename>`. For example, if you create a file `about.md` (or `about.html`) then it'll exist at `https://<yourusername>.github.io/about`.
-
-Yup that^
 
 # other
 
