@@ -1,4 +1,418 @@
 ---
-layout: home
+layout: page
 title: The Rice Philharmonics
 ---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700;800&family=Inter:wght@400;600&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #25272c;
+            overflow-x: hidden;
+        }
+        
+        /* Hero Section */
+        .hero {
+            height: 100vh;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+        
+        .hero-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('/assets/img/2024phils.jpeg');
+            background-size: cover;
+            background-position: center;
+            transition: transform 0.1s ease-out;
+        }
+        
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.4);
+        }
+        
+        .hero-text {
+            position: relative;
+            z-index: 10;
+            text-align: center;
+            transition: transform 0.1s ease-out;
+        }
+        
+        .hero-text h1 {
+            font-family: 'Nunito', sans-serif;
+            font-size: 12rem;
+            font-weight: 800;
+            color: white;
+            text-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+            letter-spacing: -0.02em;
+        }
+        
+        .scroll-indicator {
+            position: absolute;
+            bottom: 40px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: white;
+            font-size: 0.9rem;
+            animation: bounce 2s infinite;
+            z-index: 10;
+        }
+        
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateX(-50%) translateY(0); }
+            40% { transform: translateX(-50%) translateY(-10px); }
+            60% { transform: translateX(-50%) translateY(-5px); }
+        }
+        
+        /* Section Styling */
+        section {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 80px 20px;
+            opacity: 0;
+            transform: translateY(50px);
+            transition: opacity 0.8s ease, transform 0.8s ease;
+        }
+        
+        section.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        .section-content {
+            max-width: 1200px;
+            text-align: center;
+        }
+        
+        .section-content h2 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            color: #005fb7;
+            margin-bottom: 30px;
+        }
+        
+        .section-content p {
+            font-size: 1.3rem;
+            color: #25272c;
+            margin-bottom: 40px;
+            line-height: 1.6;
+        }
+        
+        /* Button Styling */
+        .cta-button {
+            display: inline-block;
+            padding: 18px 50px;
+            background: #005fb7;
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 95, 183, 0.3);
+        }
+        
+        .cta-button:hover {
+            background: #004a91;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 25px rgba(0, 95, 183, 0.4);
+        }
+        
+        /* Members Grid */
+        .members-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 30px;
+            max-width: 900px;
+            margin: 60px auto;
+        }
+        
+        .member-circle {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #005fb7, #0080ff);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .member-circle::before {
+            content: '♪';
+            font-size: 3rem;
+            color: white;
+            transition: transform 0.3s ease;
+        }
+        
+        .member-circle:hover {
+            transform: scale(1.1) rotate(5deg);
+            box-shadow: 0 8px 30px rgba(0, 95, 183, 0.4);
+        }
+        
+        .member-circle:hover::before {
+            transform: scale(1.2) rotate(-5deg);
+        }
+        
+        /* Gigs Section */
+        .gigs-section {
+            background: linear-gradient(135deg, #f5f7fa 0%, #e8ecf1 100%);
+        }
+        
+        .gigs-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+        
+        .gig-card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .gig-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
+        
+        .gig-icon {
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
+        
+        .gig-card h3 {
+            color: #005fb7;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .gig-card p {
+            color: #666;
+            font-size: 1rem;
+            margin: 0;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero-text h1 {
+                font-size: 6rem;
+            }
+            
+            .section-content h2 {
+                font-size: 2.5rem;
+            }
+            
+            .section-content p {
+                font-size: 1.1rem;
+            }
+            
+            .members-grid {
+                grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+                gap: 20px;
+            }
+            
+            .member-circle {
+                width: 100px;
+                height: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="hero-bg" id="heroBg"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-text" id="heroText">
+            <h1>phils.</h1>
+        </div>
+        <div class="scroll-indicator">
+            <div>↓</div>
+            <div style="font-size: 0.8rem; margin-top: 5px;">scroll to explore</div>
+        </div>
+    </div>
+
+    <!-- Who Are We Section -->
+    <section id="about-section">
+        <div class="section-content">
+            <h2>Who Are We?</h2>
+            <p>We're Rice University's premier co-ed a cappella group, bringing energy, harmony, and unforgettable performances to every stage we touch.</p>
+            <a href="/about" class="cta-button">Learn More About Us</a>
+        </div>
+    </section>
+
+    <!-- Members Section -->
+    <section id="members-section">
+        <div class="section-content">
+            <h2>Meet the Phils</h2>
+            <p>A talented group of voices creating magic together</p>
+            <div class="members-grid" id="membersGrid">
+                <!-- Member circles will be generated by JavaScript -->
+            </div>
+            <a href="/members" class="cta-button">See Our Full Roster</a>
+        </div>
+    </section>
+
+    <!-- Auditions Section -->
+    <section id="auditions-section">
+        <div class="section-content">
+            <h2>Want to Join Us?</h2>
+            <p>We're always looking for passionate singers to join our family. No experience necessary—just bring your voice and your love for music!</p>
+            <a href="/auditions" class="cta-button">Audition Information</a>
+        </div>
+    </section>
+
+    <!-- Media Section -->
+    <section id="media-section">
+        <div class="section-content">
+            <h2>Hear Us Sing</h2>
+            <p>From original arrangements to crowd favorites, check out our performances and recordings.</p>
+            <a href="/media" class="cta-button">Listen & Watch</a>
+        </div>
+    </section>
+
+    <!-- Gigs Section -->
+    <section id="gigs-section" class="gigs-section">
+        <div class="section-content">
+            <h2>Book the Phils</h2>
+            <p>We perform at events across Houston and Rice University</p>
+            <div class="gigs-grid">
+                <div class="gig-card">
+                    <div class="gig-icon">🎓</div>
+                    <h3>Campus Events</h3>
+                    <p>Bring a cappella magic to your Rice University event</p>
+                </div>
+                <div class="gig-card">
+                    <div class="gig-icon">💼</div>
+                    <h3>Corporate Events</h3>
+                    <p>Professional entertainment for your company gathering</p>
+                </div>
+                <div class="gig-card">
+                    <div class="gig-icon">🎉</div>
+                    <h3>Private Parties</h3>
+                    <p>Make your celebration unforgettable with live music</p>
+                </div>
+                <div class="gig-card">
+                    <div class="gig-icon">🏙️</div>
+                    <h3>Community Shows</h3>
+                    <p>Performances around Houston and beyond</p>
+                </div>
+            </div>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSf9WKgxZrQroKblc7k8FRaAFvB76R0U6dvr3LiUFPmmgfmBZg/viewform" class="cta-button" style="margin-top: 40px;">Book Us Now</a>
+        </div>
+    </section>
+
+    <script>
+        // Parallax effect on hero
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const heroBg = document.getElementById('heroBg');
+            const heroText = document.getElementById('heroText');
+            
+            if (scrolled < window.innerHeight) {
+                heroBg.style.transform = `translateY(${scrolled * 0.5}px)`;
+                heroText.style.transform = `translateY(${scrolled * 0.3}px)`;
+            }
+        });
+
+        // Intersection Observer for fade-in animations
+        const sections = document.querySelectorAll('section');
+        const observerOptions = {
+            threshold: 0.2,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        sections.forEach(section => {
+            observer.observe(section);
+        });
+
+        // Generate member circles (placeholder for 15 members)
+        const membersGrid = document.getElementById('membersGrid');
+        for (let i = 0; i < 15; i++) {
+            const circle = document.createElement('div');
+            circle.className = 'member-circle';
+            circle.style.animationDelay = `${i * 0.05}s`;
+            membersGrid.appendChild(circle);
+        }
+
+        // Stagger animation for member circles
+        const memberCircles = document.querySelectorAll('.member-circle');
+        const membersSection = document.getElementById('members-section');
+        
+        const membersObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    memberCircles.forEach((circle, index) => {
+                        setTimeout(() => {
+                            circle.style.animation = 'fadeInUp 0.6s ease forwards';
+                        }, index * 50);
+                    });
+                }
+            });
+        }, { threshold: 0.3 });
+
+        membersObserver.observe(membersSection);
+
+        // Add fadeInUp animation
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes fadeInUp {
+                from {
+                    opacity: 0;
+                    transform: translateY(30px);
+                }
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+            .member-circle {
+                opacity: 0;
+            }
+        `;
+        document.head.appendChild(style);
+    </script>
+
+</body>
+</html>
