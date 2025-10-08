@@ -43,6 +43,13 @@ title: The Rice Philharmonics
             background-size: cover;
             background-position: center;
             transition: transform 0.1s ease-out;
+            background-repeat: no-repeat;
+        }
+        
+        @media (min-width: 1400px) {
+            .hero-bg {
+                background-size: 100% auto;
+            }
         }
         
         .hero-overlay {
@@ -89,11 +96,11 @@ title: The Rice Philharmonics
         
         /* Section Styling */
         section {
-            min-height: 100vh;
+            min-height: 80vh;
             display: flex;
             align-items: center;
             justify-content: center;
-            padding: 80px 20px;
+            padding: 60px 20px;
             opacity: 0;
             transform: translateY(50px);
             transition: opacity 0.8s ease, transform 0.8s ease;
@@ -146,10 +153,17 @@ title: The Rice Philharmonics
         /* Members Grid */
         .members-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            grid-template-columns: repeat(7, 120px);
             gap: 30px;
-            max-width: 900px;
+            max-width: 1000px;
             margin: 60px auto;
+            justify-content: center;
+        }
+        
+        .members-grid .member-circle:nth-child(8) {
+            grid-column: 1 / 8;
+            grid-row: 2;
+            margin: 0 auto;
         }
         
         .member-circle {
@@ -187,10 +201,14 @@ title: The Rice Philharmonics
             background: linear-gradient(135deg, #f5f7fa 0%, #e8ecf1 100%);
         }
         
+        .gigs-section .section-content {
+            max-width: 1400px;
+        }
+        
         .gigs-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 30px;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 40px;
             margin-top: 50px;
         }
         
@@ -225,6 +243,18 @@ title: The Rice Philharmonics
         }
         
         /* Responsive Design */
+        @media (max-width: 1024px) {
+            .members-grid {
+                grid-template-columns: repeat(7, 100px);
+                gap: 20px;
+            }
+            
+            .member-circle {
+                width: 100px;
+                height: 100px;
+            }
+        }
+        
         @media (max-width: 768px) {
             .hero-text h1 {
                 font-size: 6rem;
@@ -239,13 +269,22 @@ title: The Rice Philharmonics
             }
             
             .members-grid {
-                grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-                gap: 20px;
+                grid-template-columns: repeat(4, 90px);
+                gap: 15px;
+            }
+            
+            .members-grid .member-circle:nth-child(8) {
+                grid-column: auto;
+                grid-row: auto;
             }
             
             .member-circle {
-                width: 100px;
-                height: 100px;
+                width: 90px;
+                height: 90px;
+            }
+            
+            .gigs-section .section-content {
+                max-width: 100%;
             }
         }
     </style>
@@ -367,9 +406,9 @@ title: The Rice Philharmonics
             observer.observe(section);
         });
 
-        // Generate member circles (placeholder for 15 members)
+        // Generate member circles (14 members arranged 7-7)
         const membersGrid = document.getElementById('membersGrid');
-        for (let i = 0; i < 15; i++) {
+        for (let i = 0; i < 14; i++) {
             const circle = document.createElement('div');
             circle.className = 'member-circle';
             circle.style.animationDelay = `${i * 0.05}s`;

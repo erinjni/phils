@@ -49,7 +49,7 @@ site.rss-description: "The Rice Philharmonics - Rice University's Premier A Capp
 ###########################
 
 # Add the website title to the title of every page
-title-on-all-pages: true
+title-on-all-pages: false
 
 # The keywords to associate with your website, for SEO purposes
 keywords: "rice, phils, philharmonics, acapella, university, singing, music"
