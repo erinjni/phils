@@ -1,6 +1,6 @@
 # Phils Website!
 
-> Created by Erin Ni &middot; [Based on Beautiful Jekyll](https://beautifuljekyll.com/)
+> Created by Erin Ni &middot; [Based on Beautiful Jekyll 6.0.1](https://beautifuljekyll.com/)
 
 This is the official website for **The Rice Philharmonics**. 
 
