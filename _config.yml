@@ -15,7 +15,7 @@ author: Phils
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
-site-url = "https://www.thericephilarmonics.com"
+site-url: "https://www.thericephilarmonics.com"
 
 navbar-links:
   About: "about"
