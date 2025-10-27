@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Members
+subtitle: Our beautiphul members. Click on someone to learn more!
 full-width: true
 ---
 

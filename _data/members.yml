@@ -5,8 +5,8 @@ newx6:
   year: "Newx6 Phils"
   slideshow:
     - newx6.1.jpg
-    - group1.2.jpg
-    - group1.3.jpg
+    - newx6.2.jpg
+    - newx6.3.jpg
   members:
     - name: "Josh Paik '26"
       headshot: bosh.jpg
@@ -28,8 +28,8 @@ newx7:
   year: "Newx7 Phils"
   slideshow:
     - newx7.1.jpg
-    - group2.2.jpg
-    - group2.3.jpg
+    - newx7.2.jpg
+    - newx7.3.jpg
   members:
     - name: "Kairi Mano '27"
       headshot: kairi.jpg
@@ -45,9 +45,9 @@ newx7:
 newx8:
   year: "Newx8 Phils"
   slideshow:
-    - group3.1.jpg
-    - group3.2.jpg
-    - group3.3.jpg
+    - newx8.1.jpg
+    - newx8.2.jpg
+    - newx8.3.jpg
   members:
     - name: "Ella Martinez '28"
       headshot: ella.jpg
@@ -73,9 +73,9 @@ newx8:
 newx9:
   year: "Newx9 Phils"
   slideshow:
-    - group4.1.jpg
-    - group4.2.jpg
-    - group4.3.jpg
+    - newx9.1.jpg
+    - newx9.2.jpg
+    - newx9.3.jpg
   members:
     - name: "Mason Kwon '29"
       headshot: mason.jpg
