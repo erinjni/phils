@@ -243,10 +243,6 @@ full-width: true
         position: relative;
     }
     
-    .alumni-table th:hover {
-        background: #004a91;
-    }
-    
     .alumni-table th::after {
         content: ' ↕';
         opacity: 0.5;
