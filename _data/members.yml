@@ -4,7 +4,7 @@
 newx6:
   year: "Newx6 Phils"
   slideshow:
-    - group1.1.jpg
+    - newx6.1.jpg
     - group1.2.jpg
     - group1.3.jpg
   members:
@@ -27,19 +27,19 @@ newx6:
 newx7:
   year: "Newx7 Phils"
   slideshow:
-    - group2.1.jpg
+    - newx7.1.jpg
     - group2.2.jpg
     - group2.3.jpg
   members:
-    - name: "Member Name 4"
-      headshot: member4.jpg
-      silly: member4_silly.jpg
-      blurb: "Fourth member's bio."
+    - name: "Kairi Mano '27"
+      headshot: kairi.jpg
+      silly: kairi silly.jpg
+      blurb: "Have you watched a recent phils performance on youtube?? Did you notice the pristine quality and craftsmanship of the camera work??? Well, you owe a big thank you to the Phils’ very own recording manager: Kairi Mano!! 🤩 With a camera practically glued to his side, this guy never fails to show off his creativeness— ooh you wanna click on this link so bad to see his portfolio https://kairimano.com —but he also knows when to lock in for his sports management major and stat and data science minors. Gracing us with his beautiful bari/tenor voice all the way from Tokyo, Japan, Kairi is also a junior at Lovett, and he’ll never let you forget that it’s the “best college”…his words, not mine. Whether he’s fueling his caffeine addiction at Chaus, going on a run around campus, or doing a backflip at acappellooza, everyone can find a reason to love Kairi! We’re so glad to have his talents and cinematography skills in the Phils, so we hope you keep enjoying the silly little vlogs he creates as well as sitting back and listening to him sing!!"
       id: "member4"
-    - name: "Member Name 5"
-      headshot: member5.jpg
-      silly: member5_silly.jpg
-      blurb: "Fifth member's bio."
+    - name: "Jordan Murray '27"
+      headshot: jordan.jpg
+      silly: jordan silly.jpg
+      blurb: "I heard there was a secret chord that Jordan sang and he left us floored—but does he actually know any music? Apparently not. Meet Jordan, our amazing bass from Lake Charles, Louisiana, now in his third year with the Phils! This electrical engineering major has a voice with crazy range and can nail any song you throw at him, which is ironic because he barely recognizes any of them. Jordan is the foundation of our group in more ways than one—his deep voice grounds us and holds us together, and he's ALWAYS there on time (if any of us are late to rehearsal we face his wrath). Beyond his soothing voice and calming presence, Jordan also arranges music for us and we can't wait for you all to hear what he brings to the Phils this year!"
       id: "member5"
 
 newx8:
@@ -49,24 +49,24 @@ newx8:
     - group3.2.jpg
     - group3.3.jpg
   members:
-    - name: "Member Name 6"
-      headshot: member6.jpg
-      silly: member6_silly.jpg
+    - name: "Ella Martinez '28"
+      headshot: ella.jpg
+      silly: ella silly.jpg
       blurb: "Sixth member's bio."
       id: "member6"
-    - name: "Member Name 7"
-      headshot: member7.jpg
-      silly: member7_silly.jpg
+    - name: " Liu '28"
+      headshot: jace.jpg
+      silly: jace silly.jpg
       blurb: "Seventh member's bio."
       id: "member7"
-    - name: "Member Name 8"
-      headshot: member8.jpg
-      silly: member8_silly.jpg
+    - name: "Josh Yang '27"
+      headshot: losh.jpg
+      silly: losh silly.jpg
       blurb: "Eighth member's bio."
       id: "member8"
-    - name: "Member Name 9"
-      headshot: member9.jpg
-      silly: member9_silly.jpg
+    - name: "Zach Mok '28"
+      headshot: zach.jpg
+      silly: zach silly.jpg
       blurb: "Ninth member's bio."
       id: "member9"
 
@@ -77,27 +77,27 @@ newx9:
     - group4.2.jpg
     - group4.3.jpg
   members:
-    - name: "Member Name 10"
-      headshot: member10.jpg
-      silly: member10_silly.jpg
+    - name: "Mason Kwon '29"
+      headshot: mason.jpg
+      silly: mason silly.jpg
       blurb: "Tenth member's bio."
       id: "member10"
-    - name: "Member Name 11"
-      headshot: member11.jpg
-      silly: member11_silly.jpg
+    - name: "Hannah Gormley '29"
+      headshot: hannah.jpg
+      silly: hannah silly.jpg
       blurb: "Eleventh member's bio."
       id: "member11"
-    - name: "Member Name 12"
-      headshot: member12.jpg
-      silly: member12_silly.jpg
+    - name: "Elie Park '28"
+      headshot: elie.jpg
+      silly: elie silly.jpg
       blurb: "Twelfth member's bio."
       id: "member12"
-    - name: "Member Name 13"
-      headshot: member13.jpg
-      silly: member13_silly.jpg
+    - name: "Sarah Bradley '29"
+      headshot: sarah.jpg
+      silly: sarah silly.jpg
       blurb: "Thirteenth member's bio."
       id: "member13"
-    - name: "Member Name 14"
+    - name: "Lauren Hunsaker '29"
       headshot: member14.jpg
       silly: member14_silly.jpg
       blurb: "Fourteenth member's bio."
