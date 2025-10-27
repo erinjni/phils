@@ -230,17 +230,18 @@ full-width: true
     }
     
     .alumni-table thead {
-        background: #005fb7;
-        color: white;
-    }
-    
-    .alumni-table th {
+            background: #005fb7;
+        }
+        
+    .alumni-table thead th {
         padding: 20px;
         text-align: left;
         font-weight: 600;
         cursor: pointer;
         user-select: none;
         position: relative;
+        background: #005fb7 !important;
+        color: white !important;
     }
     
     .alumni-table th::after {
