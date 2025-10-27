@@ -170,6 +170,28 @@ full-width: true
         }
         
         /* Members Grid */
+        .members-grid {
+            display: grid;
+            grid-template-columns: repeat(7, 120px);
+            gap: 30px;
+            max-width: 1000px;
+            margin: 60px auto;
+            justify-content: center;
+        }
+
+        .member-circle {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 95, 183, 0.3);
+        }
 
         .member-circle {
             width: 120px;
