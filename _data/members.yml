@@ -9,7 +9,7 @@ newx6:
     - group1.3.jpg
   members:
     - name: "Josh Paik '26"
-      headshot: "assets/img/bosh.jpg"
+      headshot: bosh.jpg
       silly: bosh silly.jpg
       blurb: "biggest bigback, belly slapper, goon but also big brain I know both musically and academically. Ngl when I found out Josh was premed I was a little surprised. Like I can see his nerdy side but lowky he’s too much of a goon sometimes for me to take him seriously. Favorite hobbies include yapping, beatboxing, producing Phil’s music on fondy first floor, laughing at his own jokes, eating and more eating."
       id: "member1"
