@@ -165,7 +165,7 @@ full-width: true
     /* Blurb */
     .member-blurb {
         max-height: 0;
-        overflow: hidden;
+        overflow: scroll;
         transition: max-height 0.4s ease, margin 0.4s ease, padding 0.4s ease;
         background: #f5f7fa;
         border-radius: 15px;
