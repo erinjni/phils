@@ -314,7 +314,7 @@ full-width: true
 <div class="members-container">
     <!-- Newx6 Section -->
     <div class="year-section" id="newx6-section">
-        <h2 class="year-title">Newx6 Phils</h2>
+        <h2 class="year-title">New x6 Phils</h2>
         
         <div class="slideshow" data-year="newx6">
             {% for image in site.data.members.newx6.slideshow %}
@@ -345,7 +345,7 @@ full-width: true
 
     <!-- Newx7 Section -->
     <div class="year-section" id="newx7-section">
-        <h2 class="year-title">Newx7 Phils</h2>
+        <h2 class="year-title">New x7 Phils</h2>
         
         <div class="slideshow" data-year="newx7">
             {% for image in site.data.members.newx7.slideshow %}
@@ -376,7 +376,7 @@ full-width: true
 
     <!-- Newx8 Section -->
     <div class="year-section" id="newx8-section">
-        <h2 class="year-title">Newx8 Phils</h2>
+        <h2 class="year-title">New x8 Phils</h2>
         
         <div class="slideshow" data-year="newx8">
             {% for image in site.data.members.newx8.slideshow %}
@@ -407,7 +407,7 @@ full-width: true
 
     <!-- Newx9 Section -->
     <div class="year-section" id="newx9-section">
-        <h2 class="year-title">Newx9 Phils</h2>
+        <h2 class="year-title">New x9 Phils</h2>
         
         <div class="slideshow" data-year="newx9">
             {% for image in site.data.members.newx9.slideshow %}
