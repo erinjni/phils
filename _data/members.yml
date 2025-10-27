@@ -8,20 +8,20 @@ newx6:
     - group1.2.jpg
     - group1.3.jpg
   members:
-    - name: "Member Name 1"
-      headshot: member1.jpg
-      silly: member1_silly.jpg
-      blurb: "This is where the member's bio goes. Talk about their major, hometown, favorite song to perform, fun fact, etc."
+    - name: "Josh Paik '26"
+      headshot: bosh.jpg
+      silly: bosh silly.jpg
+      blurb: "biggest bigback, belly slapper, goon but also big brain I know both musically and academically. Ngl when I found out Josh was premed I was a little surprised. Like I can see his nerdy side but lowky he’s too much of a goon sometimes for me to take him seriously. Favorite hobbies include yapping, beatboxing, producing Phil’s music on fondy first floor, laughing at his own jokes, eating and more eating."
       id: "member1"
-    - name: "Member Name 2"
-      headshot: member2.jpg
-      silly: member2_silly.jpg
-      blurb: "Another member bio with interesting details about them."
+    - name: "Dhilani Premaratne '26"
+      headshot: dhilani.jpg
+      silly: dhilani silly.jpg
+      blurb: "Everyone meet our wonderphul and Phil’s phavorite phresident Dhilani Premaratne! This senior(so sad don’t leave us) at Jones hailing all the way phrom Miami, Phlorida is quite the studious phil majoring in Neuroscience, Biochemistry, and Medical Humanities! She’s also quite the diverse musician and sings everything from mezzo, soprano, and alto! As an avid Beli user, you’ll find her in your local coffee shops locking in(yapping). The iron phist(warmth and kindness) she rules(graces us with) is something the Phils will never be complete without!"
       id: "member2"
-    - name: "Member Name 3"
-      headshot: member3.jpg
-      silly: member3_silly.jpg
-      blurb: "Third member's bio and fun information."
+    - name: "Erin Ni '26"
+      headshot: erin.jpg
+      silly: erin silly.jpg
+      blurb: "Get hype! Erin is a Senior and ECE major Engineering Design minor! Wow! She’s from Sunnyvale and Jones College, and, watch out!- she’s a black belt in karate. She likes hiking and going to the gym, tea, and hot pot is her favorite food. Yum! She is also a master clarinet player, so if you ever see her, be sure to ask her to play something (or else she’ll be really sad). Additionally, she is beautiful, stunning, and drop-dead gorgeous- and she sings with the voice of an angel."
       id: "member3"
 
 newx7:
