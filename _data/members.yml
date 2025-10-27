@@ -98,25 +98,569 @@ newx9:
       blurb: "Are you guys ready for our very own Brown College Resident?! Meet Sarah, an alto from Dallas, TX. She's DOUBLE majoring in psychology and sociology 🧠🤯, so please feel free to ask her all your existential questions. When she's not too busy on the Theatre stage, she also dabbles in a bit of sports photography ⚽️⚾️🤸‍♂️🏌‍♂️📷. Hope you guys feel as lucky to meet her as the Phils are to have her!"
       id: "member13"
     - name: "Lauren Hunsaker '29"
-      headshot: member14.jpg
-      silly: member14_silly.jpg
+      headshot: lauren.jpg
+      silly: lauren silly.jpg
       blurb: "Meet Lauren, a freshman from the bustling metropolis of McKinney, TX, where dreams are big and naps are even bigger. Currently majoring in something (we’ll update you when she figures that out), she’s at least minoring in theatre, which explains her dramatic entrances into the middle of rehearsal. When Lauren’s not performing, she’s probably either buried in a book or asking all of the grown-ups around her, “Do you have any games on your phone?”"
       id: "member14"
 
 alumni:
-  - name: "Alumni Name 1"
-    grad_year: 2024
-    college: "Baker College"
-    major: "Computer Science"
-    positions: "President, Music Director"
-  - name: "Alumni Name 2"
-    grad_year: 2024
-    college: "Will Rice College"
+  - name: "Philip Abraham Rothman"
+    grad_year: 1995
+    college: "Brown"
+    major: "Music"
+    positions: "MD and President"
+  - name: "H. Hugh Ho"
+    grad_year: 1995
+    college: ""
+    major: ""
+    positions: "Original member"
+  - name: "Joel Mark Riphagen"
+    grad_year: 1995
+    college: ""
+    major: ""
+    positions: "Original member"
+  - name: "James Michael Harper"
+    grad_year: 1995
+    college: ""
+    major: ""
+    positions: ""
+  - name: "Andrew Francis Hickl"
+    grad_year: 1998
+    college: "Hanszen"
+    major: "Linguistics"
+    positions: ""
+  - name: "Lisa Faye Chang"
+    grad_year: 1999
+    college: ""
+    major: ""
+    positions: ""
+  - name: "Britton Gregory"
+    grad_year: 1999
+    college: "Wiess"
+    major: "Electrical Engineering"
+    positions: ""
+  - name: "Katherine Elizabeth Kuster"
+    grad_year: 1999
+    college: "Brown"
+    major: "History and Asian Studies"
+    positions: ""
+  - name: "Jeremy Keith Zoss"
+    grad_year: 1999
+    college: "Will Rice"
     major: "Mechanical Engineering"
+    positions: "Music Director"
+  - name: "Laura Elizabeth Berwick"
+    grad_year: 2000
+    college: "Baker"
+    major: "Electrical Engineering"
+    positions: "Music Director"
+  - name: "Thomas James Bisciglia"
+    grad_year: 2000
+    college: ""
+    major: ""
+    positions: ""
+  - name: "Alesha Marie Herrera"
+    grad_year: 2000
+    college: ""
+    major: ""
+    positions: ""
+  - name: "Alexander Charles Kahn"
+    grad_year: 2000
+    college: "Hanszen"
+    major: "Computational and Applied Mathematics"
+    positions: "Music Director"
+  - name: "Anderson MacKay"
+    grad_year: 2000
+    college: "Brown"
+    major: "Electrical Engineering"
+    positions: "Music Director"
+  - name: "Paul Michael Tevis"
+    grad_year: 2000
+    college: "Baker"
+    major: "Computer Science/Philosophy"
+    positions: ""
+  - name: "Michael William Bishop"
+    grad_year: 2001
+    college: "Will Rice"
+    major: "Biochemistry"
+    positions: ""
+  - name: "Jennifer E Lohmann-Bigelow, M.D."
+    grad_year: 2001
+    college: "Will Rice"
+    major: ""
+    positions: ""
+  - name: "Juliette Lynn MacKay (Guarriello)"
+    grad_year: 2001
+    college: "Will Rice"
+    major: "Chemical Engineering"
     positions: "Business Manager"
-  - name: "Alumni Name 3"
+  - name: "Ellen Yu-I Wan"
+    grad_year: 2001
+    college: ""
+    major: ""
+    positions: ""
+  - name: "Kevin Ward Johnson"
+    grad_year: 2003
+    college: "Lovett"
+    major: "Environmental Engineering/History"
+    positions: "Music Director"
+  - name: "Gregory Richard Troisi Stoll"
+    grad_year: 2003
+    college: "Will Rice"
+    major: "Computer Science/Math"
+    positions: ""
+  - name: "Matthew James Cuddihy"
+    grad_year: 2004
+    college: "Lovett"
+    major: "Mechanical Engineering, Economics"
+    positions: "President, Business Manager"
+  - name: "Bryan Dirk Debbink"
+    grad_year: 2004
+    college: "Wiess"
+    major: "Mechanical Engineering"
+    positions: ""
+  - name: "Andrew Dennis Engroff"
+    grad_year: 2004
+    college: "Lovett"
+    major: ""
+    positions: ""
+  - name: "Millicent Mezquita Marmer (Millie)"
+    grad_year: 2004
+    college: ""
+    major: ""
+    positions: ""
+  - name: "Charles Alexander Naegele"
+    grad_year: 2004
+    college: ""
+    major: ""
+    positions: ""
+  - name: "Caroline Adelaide Shaw"
+    grad_year: 2004
+    college: "Wiess"
+    major: "Music (Violin)"
+    positions: ""
+  - name: "Dwanleen Eric Shen"
+    grad_year: 2004
+    college: "Will Rice"
+    major: "English"
+    positions: ""
+  - name: "Daniel Warner Trahan"
+    grad_year: 2005
+    college: "Martel"
+    major: "Chemical Engineering"
+    positions: ""
+  - name: "Katie Worden"
+    grad_year: 2005
+    college: "Sid Richardson"
+    major: "Political Science/French"
+    positions: "President"
+  - name: "Justin Scott Routman"
+    grad_year: 2006
+    college: "Martel"
+    major: "Psychology/French"
+    positions: "President, Recording Manager"
+  - name: "Phillip Matthew Stegner"
+    grad_year: 2006
+    college: ""
+    major: ""
+    positions: "Music Director"
+  - name: "Geoff Copper"
+    grad_year: 2007
+    college: ""
+    major: ""
+    positions: ""
+  - name: "Corby Dill"
+    grad_year: 2007
+    college: ""
+    major: ""
+    positions: ""
+  - name: "Andrew Harrison"
+    grad_year: 2007
+    college: "Hanszen"
+    major: "Linguistics"
+    positions: "Business Manager, Music Director"
+  - name: "Jossie Ivanov"
+    grad_year: 2007
+    college: "Will Rice"
+    major: "Architecture"
+    positions: ""
+  - name: "Sarah Jane Morrison"
+    grad_year: 2007
+    college: "Martel"
+    major: "English/Psychology"
+    positions: ""
+  - name: "Sarah Orem"
+    grad_year: 2007
+    college: "Will Rice"
+    major: "English"
+    positions: "Advertising Manager"
+  - name: "Andrew Reich"
+    grad_year: 2007
+    college: "Hanszen"
+    major: "Economics"
+    positions: "President, Recording Manager"
+  - name: "Beth Castillo (Jablinski)"
+    grad_year: 2008
+    college: ""
+    major: ""
+    positions: ""
+  - name: "Sarah Taylor"
+    grad_year: 2008
+    college: ""
+    major: ""
+    positions: ""
+  - name: "Allie Foster (née Janda)"
+    grad_year: 2009
+    college: "Lovett"
+    major: "Economics, Minor in Business"
+    positions: "President"
+  - name: "Gillian Lauren Kruse"
+    grad_year: 2009
+    college: "Brown"
+    major: "English and Psychology"
+    positions: "Treasurer, Business Manager"
+  - name: "Payton Odom"
+    grad_year: 2009
+    college: "Baker"
+    major: "Mathematical Economic Analysis, Political Science"
+    positions: "Recording Manager"
+  - name: "Whitney Parsons"
+    grad_year: 2009
+    college: "Lovett"
+    major: ""
+    positions: ""
+  - name: "Raymond Yu"
+    grad_year: 2009
+    college: "Lovett"
+    major: "Economics, Psychology, Managerial Studies"
+    positions: ""
+  - name: "Parker Davis"
+    grad_year: 2009
+    college: "Sid Richardson"
+    major: ""
+    positions: ""
+  - name: "Kyle Clark"
+    grad_year: 2010
+    college: "Will Rice"
+    major: "History; International Affairs Policy Studies"
+    positions: "Recording Manager"
+  - name: "Carmen Perez"
+    grad_year: 2010
+    college: "Wiess"
+    major: "BioEngineering and Global Health"
+    positions: "Music Director"
+  - name: "Adriana Rusinek"
+    grad_year: 2010
+    college: "Brown"
+    major: "English"
+    positions: ""
+  - name: "Ian Walsh"
+    grad_year: 2010
+    college: "Sid Richardson"
+    major: "Physics"
+    positions: "Treasurer"
+  - name: "Liz Ericson"
+    grad_year: 2010
+    college: "Sid Richardson"
+    major: "History"
+    positions: ""
+  - name: "Alayne Potter"
+    grad_year: 2011
+    college: "Jones"
+    major: "Political Science"
+    positions: "President, Business Manager"
+  - name: "Eric Reinelt"
+    grad_year: 2011
+    college: "Baker"
+    major: "Philosophy, Economics"
+    positions: "Music Director"
+  - name: "Liz Castillo"
+    grad_year: 2012
+    college: "Wiess"
+    major: "Linguistics and Theater"
+    positions: "Choreographer"
+  - name: "Andrew Owens"
+    grad_year: 2012
+    college: "Sid Richardson"
+    major: "Mechanical Engineering"
+    positions: "Recording Manager, Music Director"
+  - name: "Aaron Tallman"
+    grad_year: 2012
+    college: "Hanszen"
+    major: "Materials Science Engineering and Visual and Dramatic Arts"
+    positions: "Recording Manager"
+  - name: "Erin Walsh"
+    grad_year: 2012
+    college: "McMurtry"
+    major: ""
+    positions: "President, Business Manager"
+  - name: "Dustin Gallo"
+    grad_year: 2013
+    college: "Hanszen"
+    major: "Mathematical Economic Analysis, Mathematics, CLCC"
+    positions: "Publicity Manager"
+  - name: "Christine Jeon"
+    grad_year: 2013
+    college: "Hanszen"
+    major: ""
+    positions: "Business Manager, President"
+  - name: "Adrien Pellerin"
+    grad_year: 2013
+    college: "Sid Richardson"
+    major: "Computer Science + Film Production"
+    positions: ""
+  - name: "Chet Kupchella"
+    grad_year: 2014
+    college: "Hanszen"
+    major: "Mechanical Engineering"
+    positions: "Recording Manager, Music Director (2 years)"
+  - name: "Christina Fakes"
+    grad_year: 2014
+    college: "Duncan"
+    major: "Art History/Pre-Med"
+    positions: "Publicity Manager"
+  - name: "Humberto Gilmer"
+    grad_year: 2014
+    college: "Martel"
+    major: "Physics"
+    positions: ""
+  - name: "Molly Richardson"
+    grad_year: 2014
+    college: "McMurtry"
+    major: "Astrophysics"
+    positions: "Treasurer, Business Manager, Interim President"
+  - name: "Steven Parra"
+    grad_year: 2014
+    college: "Lovett"
+    major: "Chemistry"
+    positions: "Publicity Manager, President"
+  - name: "Molly Mohr"
+    grad_year: 2015
+    college: "Duncan"
+    major: "English/Sport Management"
+    positions: "Valentines Coordinator, Business Manager, President"
+  - name: "Zach Bielak"
+    grad_year: 2015
+    college: "Sid Richardson"
+    major: "Mechanical Engineering"
+    positions: "Recording Manager (2 years), Music Director"
+  - name: "Caleb Owlsey"
+    grad_year: 2015
+    college: "McMurtry"
+    major: "Bioengineering"
+    positions: "Treasurer, Valentines Coordinator"
+  - name: "Julia Klineberg"
+    grad_year: 2015
+    college: "McMurtry"
+    major: "Art and Art History"
+    positions: "Recording Manager (2 years)"
+  - name: "Kendall Post"
+    grad_year: 2015
+    college: "Lovett"
+    major: "SWGS"
+    positions: "Tour Manager"
+  - name: "Adeola Adegabi"
+    grad_year: 2015
+    college: "Wiess"
+    major: ""
+    positions: "Webmaster, Business Manager/Treasurer"
+  - name: "Weston Ruths"
+    grad_year: 2016
+    college: "Jones"
+    major: "Computer Science"
+    positions: "Publicity Manager/Webmaster (2 years), President"
+  - name: "Juan Cruz"
+    grad_year: 2016
+    college: "McMurtry"
+    major: "Theatre"
+    positions: "Publicity Manager, Music Director"
+  - name: "Emily Statham"
+    grad_year: 2016
+    college: "McMurtry"
+    major: "Bioethics"
+    positions: "Treasurer"
+  - name: "Matthew Greene"
+    grad_year: 2017
+    college: "Sid Richardson"
+    major: "Computer Science"
+    positions: "Valentines Coordinator, Recording Manager, Acappellooza Coordinator, Business Manager, Music Director, President"
+  - name: "Sam Pearson"
+    grad_year: 2017
+    college: "Sid Richardson"
+    major: "Cognitive Science and Theatre"
+    positions: ""
+  - name: "Alice Voirand"
+    grad_year: 2017
+    college: "Wiess"
+    major: "Political Science"
+    positions: "Valentines Coordinator"
+  - name: "Kaysie Tam"
+    grad_year: 2018
+    college: "Martel"
+    major: "Mechanical Engineering"
+    positions: "President, Treasurer, Acappellooza Coordinator (2 years), Valentines Coordinator"
+  - name: "Julia Jung"
+    grad_year: 2018
+    college: "Brown"
+    major: "Philosophy"
+    positions: ""
+  - name: "Keshawn Ivory"
+    grad_year: 2018
+    college: "Wiess"
+    major: "Astrophysics, French Studies"
+    positions: "Vibe Checker"
+  - name: "Muna Uzodike"
+    grad_year: 2019
+    college: "Martel"
+    major: "Kinesiology"
+    positions: "Choreographer for ICCAs, Sweet-O rep"
+  - name: "Burke Garza"
+    grad_year: 2019
+    college: "Jones"
+    major: "Chemical Engineering"
+    positions: "President, Business Manager, Treasurer"
+  - name: "Veronica Zheng"
+    grad_year: 2019
+    college: "Baker"
+    major: "Biosciences"
+    positions: "Music Director (2 years)"
+  - name: "Preston Quine"
+    grad_year: 2019
+    college: "Duncan"
+    major: "Mechanical Engineering"
+    positions: "Recording Manager (2 years)"
+  - name: "Kelsie Utz"
+    grad_year: 2019
+    college: "McMurtry"
+    major: "English"
+    positions: "Business Manager"
+  - name: "Akeem Ogunkeye"
+    grad_year: 2019
+    college: "Jones"
+    major: "Computational and Applied Mathematics"
+    positions: "President"
+  - name: "Elizabeth Jowers"
+    grad_year: 2020
+    college: "Martel"
+    major: ""
+    positions: "President, Business Manager"
+  - name: "Matthew Carey"
+    grad_year: 2020
+    college: "McMurtry"
+    major: ""
+    positions: "Music Director"
+  - name: "CJ Cook"
+    grad_year: 2021
+    college: "Wiess"
+    major: ""
+    positions: "Music Director, Publicity Manager"
+  - name: "Jonathan Ubalijoro"
+    grad_year: 2021
+    college: "Lovett"
+    major: ""
+    positions: "#1 Birthday rep"
+  - name: "Mark Trevino"
+    grad_year: 2021
+    college: "Brown"
+    major: ""
+    positions: ""
+  - name: "Natalie Gault"
+    grad_year: 2021
+    college: "Hanszen"
+    major: ""
+    positions: "President"
+  - name: "Christian Metoyer"
+    grad_year: 2022
+    college: "Jones"
+    major: "Mechanical Engineering"
+    positions: ""
+  - name: "Dylan Rivera"
+    grad_year: 2022
+    college: "Baker"
+    major: "Mechanical Engineering"
+    positions: "Music Director"
+  - name: "Vibha Sastri"
+    grad_year: 2022
+    college: "McMurtry"
+    major: ""
+    positions: "President"
+  - name: "Sophia Marx"
+    grad_year: 2022
+    college: "McMurtry"
+    major: "VADA + CogSci"
+    positions: ""
+  - name: "Chris Hong"
+    grad_year: 2022
+    college: "Jones"
+    major: ""
+    positions: "Treasurer"
+  - name: "Vincent Pearce"
+    grad_year: 2022
+    college: "Baker"
+    major: ""
+    positions: "Recording Manager"
+  - name: "Jared Butler"
     grad_year: 2023
-    college: "Hanszen College"
-    major: "Psychology"
-    positions: "Social Chair, Soprano Section Leader"
-  # Add more alumni as needed
+    college: "McMurtry"
+    major: ""
+    positions: "Webmaster"
+  - name: "Srivinay Tummarakota (Vinay)"
+    grad_year: 2023
+    college: "Hanszen"
+    major: ""
+    positions: "Business Manager"
+  - name: "Audrey Ma"
+    grad_year: 2024
+    college: "Wiess"
+    major: ""
+    positions: "Music Director, Business Manager"
+  - name: "Teddy Gilman"
+    grad_year: 2024
+    college: "McMurtry"
+    major: ""
+    positions: "Treasurer, Publicity Manager"
+  - name: "Yiyi Yang"
+    grad_year: 2024
+    college: "Lovett"
+    major: ""
+    positions: "Publicity Manager, President"
+  - name: "Luna Xia"
+    grad_year: 2024
+    college: "Jones"
+    major: ""
+    positions: "President"
+  - name: "Rita Ajit"
+    grad_year: 2025
+    college: ""
+    major: ""
+    positions: ""
+  - name: "Taylor Stowers"
+    grad_year: 2025
+    college: ""
+    major: ""
+    positions: ""
+  - name: "Khalil Jebailey"
+    grad_year: 2025
+    college: ""
+    major: ""
+    positions: ""
+  - name: "Belen Szentes"
+    grad_year: 2025
+    college: ""
+    major: ""
+    positions: ""
+  - name: "Doug A. Smith"
+    grad_year: 1998
+    college: ""
+    major: "Music"
+    positions: ""
+  - name: "Andrew Hayes Swick"
+    grad_year: 2003
+    college: "Wiess"
+    major: "Mechanical Engineering"
+    positions: ""
+  - name: "Marshall Collin Wolfe"
+    grad_year: 2001
+    college: "Jones"
+    major: "Math/Physics"
+    positions: ""
