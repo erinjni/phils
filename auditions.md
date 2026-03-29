@@ -6,7 +6,7 @@ subtitle: How can I join the Phils?
 
 ## 2026-2027 Auditions
 
-### Rice nAcapella Info Session
+### Rice Acapella Info Session
 **Date:** _______  
 Come meet all 6 Rice acapella groups! You’ll learn about all the different groups and can ask any questions you have.
 
