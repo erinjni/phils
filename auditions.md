@@ -25,4 +25,4 @@ Once all auditions are over, we will notify you via email regarding a second rou
 
 ---
 
-![Phils Group Photo]('/assets/img/jenis.jpg')
+![Phils Group Photo](/assets/img/jenis.jpg)
