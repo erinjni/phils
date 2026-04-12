@@ -8,13 +8,13 @@ title: Media
   <tr>
     <td align="center" style="border: none; padding: 10px;">
       <a href="https://youtu.be/M0eSxQJ7Nms">
-        <img src="https://img.youtube.com/vi/M0eSxQJ7Nms/maxresdefault.jpg" width="800" alt="2026 TAMU Acapellooza"/>
+        <img src="https://img.youtube.com/vi/M0eSxQJ7Nms/maxresdefault.jpg" width="1200" alt="2026 TAMU Acapellooza"/>
       </a>
       <br/>2026 TAMU Acapellooza
     </td>
     <td align="center" style="border: none; padding: 10px;">
       <a href="https://youtu.be/i5Jl6uC2xPw">
-        <img src="https://img.youtube.com/vi/i5Jl6uC2xPw/maxresdefault.jpg" width="800" alt="Africa | Fall Concert 2025"/>
+        <img src="https://img.youtube.com/vi/i5Jl6uC2xPw/maxresdefault.jpg" width="1200" alt="Africa | Fall Concert 2025"/>
       </a>
       <br/>Africa | Fall Concert 2025
     </td>
@@ -22,13 +22,13 @@ title: Media
   <tr>
     <td align="center" style="border: none; padding: 10px;">
       <a href="https://youtu.be/y6EitutI2R4">
-        <img src="https://img.youtube.com/vi/y6EitutI2R4/maxresdefault.jpg" width="800" alt="Standing Next to You | Fall Concert 2025"/>
+        <img src="https://img.youtube.com/vi/y6EitutI2R4/maxresdefault.jpg" width="1200" alt="Standing Next to You | Fall Concert 2025"/>
       </a>
       <br/>Standing Next to You | Fall Concert 2025
     </td>
     <td align="center" style="border: none; padding: 10px;">
       <a href="https://youtu.be/CBDnQ9LZOaQ">
-        <img src="https://img.youtube.com/vi/CBDnQ9LZOaQ/maxresdefault.jpg" width="800" alt="2025 ICCAs Vlog"/>
+        <img src="https://img.youtube.com/vi/CBDnQ9LZOaQ/maxresdefault.jpg" width="1200" alt="2025 ICCAs Vlog"/>
       </a>
       <br/>2025 ICCAs Vlog
     </td>
