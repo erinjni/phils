@@ -4,9 +4,9 @@
 newx6:
   year: "Newx6 Phils"
   slideshow:
-    - newx6.1.jpg
-    - newx6.2.jpg
-    - newx6.3.jpg
+    - newx6.1_comp.jpg
+    - newx6.2_comp.jpg
+    - newx6.3_comp.jpg
   members:
     - name: "Josh Paik '26"
       headshot: bosh.jpg
