@@ -47,3 +47,49 @@ full-width: true
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/6SWt8NggN8nn2Y2uUYoCQA" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 </div>
+
+<h2>Photo Archive</h2>
+
+<details>
+  <summary style="cursor: pointer; font-size: 1.2rem; font-weight: bold; margin: 10px 0;">2024-2025</summary>
+  <div style="display: grid; grid-template-columns: repeat(1, 1fr); gap: 10px; margin-top: 10px;">
+    <img src="/assets/img/Archive/2024phils.jpeg" style="width: 100%;"/>
+  </div>
+</details>
+
+<details>
+  <summary style="cursor: pointer; font-size: 1.2rem; font-weight: bold; margin: 10px 0;">2023-2024</summary>
+  <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 10px;">
+    <img src="/assets/img/Archive/D38A4705 Credit Ben Hao @bhaophoto.jpg" style="width: 100%;"/>
+    <img src="/assets/img/Archive/D38A4742 Credit Ben Hao @bhaophoto.jpg" style="width: 100%;"/>
+  </div>
+</details>
+
+<details>
+  <summary style="cursor: pointer; font-size: 1.2rem; font-weight: bold; margin: 10px 0;">2022-2023</summary>
+  <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 10px;">
+    <img src="/assets/img/Archive/phils22_23.1.jpg" style="width: 100%;"/>
+    <img src="/assets/img/Archive/phils22_23.3.jpg" style="width: 100%;"/>
+  </div>
+</details>
+
+<details>
+  <summary style="cursor: pointer; font-size: 1.2rem; font-weight: bold; margin: 10px 0;">2021-2022</summary>
+  <div style="display: grid; grid-template-columns: repeat(1, 1fr); gap: 10px; margin-top: 10px;">
+    <img src="/assets/img/Archive/phils21_22.jpg" style="width: 100%;"/>
+  </div>
+</details>
+
+<details>
+  <summary style="cursor: pointer; font-size: 1.2rem; font-weight: bold; margin: 10px 0;">2019-2020</summary>
+  <div style="display: grid; grid-template-columns: repeat(1, 1fr); gap: 10px; margin-top: 10px;">
+    <img src="/assets/img/Archive/phils19_20.jpg" style="width: 100%;"/>
+  </div>
+</details>
+
+<details>
+  <summary style="cursor: pointer; font-size: 1.2rem; font-weight: bold; margin: 10px 0;">2018-2019</summary>
+  <div style="display: grid; grid-template-columns: repeat(1, 1fr); gap: 10px; margin-top: 10px;">
+    <img src="/assets/img/Archive/phils18_19.jpg" style="width: 100%;"/>
+  </div>
+</details>
