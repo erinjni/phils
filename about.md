@@ -88,7 +88,7 @@ The Phils perform at various events on Rice University campus and throughout the
 
 ### Upcoming Performances
 
-The Phils pherform at concerts throughout the year.You can see them at…
+The Phils pherform for the Rice community at concerts throughout the year. You can see them at…
 - Fall concert: Phils are traditionally joined onstage by alumni during Africa
 - Holiday concert: Wearing an ugly holiday sweater is encouraged but not required
 - Acapellooza: All of Rice’s a cappella groups have individual showcases, followed by a group song
