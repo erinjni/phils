@@ -35,7 +35,7 @@ The Phils arrange all of their own music, spanning a variety of genres like pop,
 </div>
 
 ### Past Gigs
-The Phils perform at various events on Rice University campus and throughout the Houston area. Past performances include Pancakes for Parkinson's, Alzheimer's Buddies, Fondren Library Study Break, Houston Holiday Market, POST, and Camp Kesem. Every year, the Phils offer Singing Valentines, where they personally serenade that special someone. Interested in booking the Phils for your next event? Reach out through the link above or via their socials!
+You can catch the Phils at various events on Rice University campus and throughout the Houston area. Past performances include Pancakes for Parkinson's, Alzheimer's Buddies, Fondren Library Study Break, Houston Holiday Market, POST, and Camp Kesem. Every year, the Phils offer Singing Valentines, where they personally serenade that special someone. Interested in booking the Phils for your next event? Reach out through the link above or via their socials!
 
 <div class="slideshow" style="position: relative; width: 100%; max-width: 900px; height: 500px; margin: 20px auto; border-radius: 20px; overflow: hidden; box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);">
   <img src="/assets/img/phils_p4p.jpg" class="slideshow-image active" style="position: absolute; width: 100%; height: 100%; object-fit: cover; opacity: 0; transition: opacity 1s ease-in-out;">
