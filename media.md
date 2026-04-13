@@ -53,6 +53,8 @@ full-width: true
 
 </div>
 
+<!-- Add a list of different gigs with pictures similar to nocty. Maybe add under different tab-->
+<!-- Also add more dynamic pictures for different years-->
 <h2>Photo Archive</h2>
 
 <details>
