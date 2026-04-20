@@ -87,9 +87,14 @@ You can catch the Phils at various events on Rice University campus and througho
 </script>
 
 ### Upcoming Performances
-
-The Phils pherform for the Rice community at concerts throughout the year. You can see them at…
-- Fall concert: Phils are traditionally joined onstage by alumni during Africa
+ The Phils pherform for the Rice community at concerts throughout the year. You can see them at…
+ <ul>
+  <li style="color: #aaaaaa; text-decoration: line-through;">Fall concert: Phils are traditionally joined onstage by alumni during Africa</li>
+  <li style="color: #aaaaaa; text-decoration: line-through;">Holiday concert: Wearing an ugly holiday sweater is encouraged but not required</li>
+  <li style="color: #aaaaaa; text-decoration: line-through;">Acapellooza: All of Rice's a cappella groups have individual showcases, followed by a group song</li>
+  <li><strong>All Request — April 28th, 7 PM @ RMC Chapel:</strong> Audience members decide the Phils’ set list, which includes senior solos (bring those tissues)</li>
+</ul>
+<!-- - Fall concert: Phils are traditionally joined onstage by alumni during Africa
 - Holiday concert: Wearing an ugly holiday sweater is encouraged but not required
 - Acapellooza: All of Rice’s a cappella groups have individual showcases, followed by a group song
-- All request: Audience members decide the Phils’ set list, which includes senior solos (bring those tissues)
+- **All request - April 28th @ RMC Chapel**: Audience members decide the Phils’ set list, which includes senior solos (bring those tissues)-->
