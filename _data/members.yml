@@ -132,27 +132,27 @@ alumni:
   - name: "Teddy Gilman"
     grad_year: 2024
     college: "McMurtry"
-    major: ""
+    major: "Mathematics"
     positions: "Treasurer, Publicity Manager"
   - name: "Yiyi Yang"
     grad_year: 2024
     college: "Lovett"
-    major: ""
+    major: "Materials Science and Nanoengineering"
     positions: "Publicity Manager, President"
   - name: "Luna Xia"
     grad_year: 2024
     college: "Jones"
-    major: ""
+    major: "Chemical Engineering"
     positions: "President"
   - name: "Jared Butler"
     grad_year: 2023
     college: "McMurtry"
-    major: ""
+    major: "Cognitive Sciences"
     positions: "Webmaster"
   - name: "Srivinay Tummarakota (Vinay)"
     grad_year: 2023
     college: "Hanszen"
-    major: ""
+    major: "Computer Vision"
     positions: "Business Manager"
   - name: "Christian Metoyer"
     grad_year: 2022
@@ -177,7 +177,7 @@ alumni:
   - name: "Chris Hong"
     grad_year: 2022
     college: "Jones"
-    major: ""
+    major: "Mechanical Engineering"
     positions: "Treasurer"
   - name: "Vincent Pearce"
     grad_year: 2022
@@ -192,7 +192,7 @@ alumni:
   - name: "Jonathan Ubalijoro"
     grad_year: 2021
     college: "Lovett"
-    major: ""
+    major: "Computer Science"
     positions: "#1 Birthday rep"
   - name: "Mark Trevino"
     grad_year: 2021
@@ -377,7 +377,7 @@ alumni:
   - name: "Erin Walsh"
     grad_year: 2012
     college: "McMurtry"
-    major: ""
+    major: "Chemical Engineering"
     positions: "President, Business Manager"
   - name: "Alayne Potter"
     grad_year: 2011
