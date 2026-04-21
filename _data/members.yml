@@ -107,7 +107,7 @@ alumni:
   - name: "Rita Ajit"
     grad_year: 2025
     college: "Lovett"
-    major: "English, Social Policy Analysis"
+    major: "English/Social Policy Analysis"
     positions: "President, Treasurer"
   - name: "Taylor Stowers"
     grad_year: 2025
@@ -197,12 +197,12 @@ alumni:
   - name: "Mark Trevino"
     grad_year: 2021
     college: "Brown"
-    major: ""
+    major: "Philosophy, Art"
     positions: ""
   - name: "Natalie Gault"
     grad_year: 2021
     college: "Hanszen"
-    major: ""
+    major: "Biochemistry and Cell Biology"
     positions: "President"
   - name: "Elizabeth Jowers"
     grad_year: 2020
@@ -212,7 +212,7 @@ alumni:
   - name: "Matthew Carey"
     grad_year: 2020
     college: "McMurtry"
-    major: ""
+    major: "Neuroscience"
     positions: "Music Director"
   - name: "Muna Uzodike"
     grad_year: 2019
@@ -317,7 +317,7 @@ alumni:
   - name: "Adeola Adegabi"
     grad_year: 2015
     college: "Wiess"
-    major: ""
+    major: "Sociology and Policy Studies"
     positions: "Webmaster, Business Manager/Treasurer"
   - name: "Chet Kupchella"
     grad_year: 2014
@@ -352,7 +352,7 @@ alumni:
   - name: "Christine Jeon"
     grad_year: 2013
     college: "Hanszen"
-    major: ""
+    major: "Statistics"
     positions: "Business Manager, President"
   - name: "Adrien Pellerin"
     grad_year: 2013
@@ -447,7 +447,7 @@ alumni:
   - name: "Beth Castillo (Jablinski)"
     grad_year: 2008
     college: ""
-    major: ""
+    major: "Linguistics"
     positions: ""
   - name: "Sarah Taylor"
     grad_year: 2008
@@ -496,7 +496,7 @@ alumni:
     positions: "President, Recording Manager"
   - name: "Phillip Matthew Stegner"
     grad_year: 2006
-    college: ""
+    college: "Economics/Policy Studies"
     major: ""
     positions: "Music Director"
   - name: "Daniel Warner Trahan"
@@ -522,12 +522,12 @@ alumni:
   - name: "Andrew Dennis Engroff"
     grad_year: 2004
     college: "Lovett"
-    major: ""
+    major: "Electrical and Computer Engineering"
     positions: ""
   - name: "Millicent Mezquita Marmer (Millie)"
     grad_year: 2004
     college: ""
-    major: ""
+    major: "Religious Studies/Philosophy"
     positions: ""
   - name: "Charles Alexander Naegele"
     grad_year: 2004
@@ -567,7 +567,7 @@ alumni:
   - name: "Jennifer E Lohmann-Bigelow, M.D."
     grad_year: 2001
     college: "Will Rice"
-    major: ""
+    major: "Biology/Anthropology"
     positions: ""
   - name: "Juliette Lynn MacKay (Guarriello)"
     grad_year: 2001
