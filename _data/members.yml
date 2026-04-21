@@ -152,7 +152,7 @@ alumni:
   - name: "Srivinay Tummarakota (Vinay)"
     grad_year: 2023
     college: "Hanszen"
-    major: "Computer Vision"
+    major: "Computer Science"
     positions: "Business Manager"
   - name: "Christian Metoyer"
     grad_year: 2022
@@ -182,7 +182,7 @@ alumni:
   - name: "Vincent Pearce"
     grad_year: 2022
     college: "Baker"
-    major: ""
+    major: "Mechanical Engineering"
     positions: "Recording Manager"
   - name: "CJ Cook"
     grad_year: 2021
@@ -645,7 +645,7 @@ alumni:
     major: "Music"
     positions: ""
   - name: "Philip Abraham Rothman"
-    grad_year: 1995
+    grad_year: 1998
     college: "Brown"
     major: "Music"
     positions: "MD and President"
@@ -695,7 +695,7 @@ alumni:
     major: ""
     positions: ""
   - name: "Brandon Jamison Gibson"
-    grad_year: ""
+    grad_year: "1999"
     college: ""
     major: ""
     positions: ""
@@ -720,14 +720,14 @@ alumni:
     major: ""
     positions: ""
   - name: "Laura Leone Huff"
-    grad_year: ""
+    grad_year: "1998"
     college: ""
     major: ""
     positions: ""
   - name: "Emily M. Jiang"
-    grad_year: ""
+    grad_year: "1997"
     college: ""
-    major: ""
+    major: "English"
     positions: ""
   - name: "Nicole Eileen Joy"
     grad_year: ""
