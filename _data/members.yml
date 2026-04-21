@@ -107,22 +107,22 @@ alumni:
   - name: "Rita Ajit"
     grad_year: 2025
     college: "Lovett"
-    major: ""
+    major: "English, Social Policy Analysis"
     positions: "President, Treasurer"
   - name: "Taylor Stowers"
     grad_year: 2025
     college: "Duncan"
-    major: ""
+    major: "Psychological Sciences"
     positions: "Business Manager"
   - name: "Khalil JeBailey"
     grad_year: 2025
     college: "Baker"
-    major: ""
+    major: "Materials Science and Nanoengineering"
     positions: "Recording Manager"
   - name: "Belen Szentes"
     grad_year: 2025
     college: "Will Rice"
-    major: ""
+    major: "Mechanical Engineering"
     positions: ""
   - name: "Audrey Ma"
     grad_year: 2024
