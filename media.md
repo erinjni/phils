@@ -95,8 +95,9 @@ full-width: true
 
 <details>
   <summary style="cursor: pointer; font-size: 1.2rem; font-weight: bold; margin: 10px 0;">2019-2020</summary>
-  <div class="archive-grid" style="display: grid; grid-template-columns: repeat(1, 1fr); gap: 10px; margin-top: 10px;">
+  <div class="archive-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 10px;">
     <img src="/assets/img/Archive/phils19_20.jpg" style="width: 100%;"/>
+    <img src="/assets/img/Archive/phils19_20.2.jpg" style="width: 100%;"/>
   </div>
 </details>
 
@@ -104,7 +105,7 @@ full-width: true
   <summary style="cursor: pointer; font-size: 1.2rem; font-weight: bold; margin: 10px 0;">2018-2019</summary>
   <div class="archive-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 10px;">
     <img src="/assets/img/Archive/phils18_19.jpg" style="width: 100%;"/>
-    <img src="/assets/img/Archive/phils18_19_silly.jpg" style="width: 100%;"/>
+    <img src="/assets/img/Archive/phils18_19.2.jpg" style="width: 100%;"/>
   </div>
 </details>
 
@@ -119,5 +120,20 @@ full-width: true
   <summary style="cursor: pointer; font-size: 1.2rem; font-weight: bold; margin: 10px 0;">2016-2017</summary>
   <div class="archive-grid" style="display: grid; grid-template-columns: repeat(1, 1fr); gap: 10px; margin-top: 10px;">
     <img src="/assets/img/Archive/phils16_17.jpg" style="width: 100%;"/>
+  </div>
+</details>
+
+<details>
+  <summary style="cursor: pointer; font-size: 1.2rem; font-weight: bold; margin: 10px 0;">2014-2015</summary>
+  <div class="archive-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 10px;">
+    <img src="/assets/img/Archive/phils14_15.jpg" style="width: 100%;"/>
+    <img src="/assets/img/Archive/seniors_14_15.jpg" style="width: 100%;"/>
+  </div>
+</details>
+
+<details>
+  <summary style="cursor: pointer; font-size: 1.2rem; font-weight: bold; margin: 10px 0;">2012-2013</summary>
+  <div class="archive-grid" style="display: grid; grid-template-columns: repeat(1, 1fr); gap: 10px; margin-top: 10px;">
+    <img src="/assets/img/Archive/phils12_13.jpg" style="width: 100%;"/>
   </div>
 </details>
