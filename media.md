@@ -80,13 +80,16 @@ full-width: true
   <div class="archive-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 10px;">
     <img src="/assets/img/Archive/phils22_23.1.jpg" style="width: 100%;"/>
     <img src="/assets/img/Archive/phils22_23.3.jpg" style="width: 100%;"/>
+    <img src="/assets/img/Archive/newx3.jpg" style="width: 100%;"/>
   </div>
 </details>
 
 <details>
   <summary style="cursor: pointer; font-size: 1.2rem; font-weight: bold; margin: 10px 0;">2021-2022</summary>
-  <div class="archive-grid" style="display: grid; grid-template-columns: repeat(1, 1fr); gap: 10px; margin-top: 10px;">
+  <div class="archive-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 10px;">
     <img src="/assets/img/Archive/phils21_22.jpg" style="width: 100%;"/>
+    <img src="/assets/img/Archive/phils21_22.2.jpg" style="width: 100%;"/>
+    <img src="/assets/img/Archive/newx2.jpg" style="width: 100%;"/>
   </div>
 </details>
 
@@ -99,7 +102,22 @@ full-width: true
 
 <details>
   <summary style="cursor: pointer; font-size: 1.2rem; font-weight: bold; margin: 10px 0;">2018-2019</summary>
-  <div class="archive-grid" style="display: grid; grid-template-columns: repeat(1, 1fr); gap: 10px; margin-top: 10px;">
+  <div class="archive-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 10px;">
     <img src="/assets/img/Archive/phils18_19.jpg" style="width: 100%;"/>
+    <img src="/assets/img/Archive/phils18_19_silly.jpg" style="width: 100%;"/>
+  </div>
+</details>
+
+<details>
+  <summary style="cursor: pointer; font-size: 1.2rem; font-weight: bold; margin: 10px 0;">2017-2018</summary>
+  <div class="archive-grid" style="display: grid; grid-template-columns: repeat(1, 1fr); gap: 10px; margin-top: 10px;">
+    <img src="/assets/img/Archive/phils17_18.jpg" style="width: 100%;"/>
+  </div>
+</details>
+
+<details>
+  <summary style="cursor: pointer; font-size: 1.2rem; font-weight: bold; margin: 10px 0;">2016-2017</summary>
+  <div class="archive-grid" style="display: grid; grid-template-columns: repeat(1, 1fr); gap: 10px; margin-top: 10px;">
+    <img src="/assets/img/Archive/phils16_17.jpg" style="width: 100%;"/>
   </div>
 </details>
