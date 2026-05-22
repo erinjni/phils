@@ -61,6 +61,8 @@ full-width: true
   <summary style="cursor: pointer; font-size: 1.2rem; font-weight: bold; margin: 10px 0;">2024-2025</summary>
   <div class="archive-grid" style="display: grid; grid-template-columns: repeat(1, 1fr); gap: 10px; margin-top: 10px;">
     <img src="/assets/img/Archive/2024phils.jpeg" style="width: 100%;"/>
+    <img src="/assets/img/Archive/phils24_25_silly.jpg" style="width: 100%;"/>
+    <img src="/assets/img/Archive/newx5.jpg" style="width: 100%;"/>
   </div>
 </details>
 
@@ -69,6 +71,7 @@ full-width: true
   <div class="archive-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 10px;">
     <img src="/assets/img/Archive/D38A4705 Credit Ben Hao @bhaophoto.jpg" style="width: 100%;"/>
     <img src="/assets/img/Archive/D38A4742 Credit Ben Hao @bhaophoto.jpg" style="width: 100%;"/>
+    <img src="/assets/img/Archive/newx4.jpg" style="width: 100%;"/>
   </div>
 </details>
 
