@@ -94,8 +94,8 @@ You can catch the Phils at various events on Rice University campus and througho
   <li><strong>Acapellooza:</strong> All of Rice's a cappella groups have individual showcases, followed by a group song</li>
   <li><strong>All Request:</strong> Audience members decide the Phils’ set list, which includes senior solos (bring those tissues)</li>
 </ul>
- <!--<ul>
+ <!-- <ul>
   <li style="color: #aaaaaa; text-decoration: line-through;">Fall concert: Phils are traditionally joined onstage by alumni during Africa</li>
   <li><strong>All Request — April 28th, 7 PM @ RMC Chapel:</strong> Audience members decide the Phils’ set list, which includes senior solos (bring those tissues)</li>
-</ul>-->
+</ul> -->
 
