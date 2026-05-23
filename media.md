@@ -80,7 +80,6 @@ full-width: true
   <div class="archive-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 10px;">
     <img src="/assets/img/Archive/phils22_23.1.jpg" style="width: 100%;"/>
     <img src="/assets/img/Archive/phils22_23.3.jpg" style="width: 100%;"/>
-    <img src="/assets/img/Archive/newx3.jpg" style="width: 100%;"/>
   </div>
 </details>
 
