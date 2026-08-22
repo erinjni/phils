@@ -12,8 +12,8 @@ Come meet all 6 Rice acapella groups! You’ll learn about all the different gro
 
 ### Phils Audition Dates
 *Please only attend one.*
-- **Day 1:** _______
-- **Day 2:** _______
+- **Day 1:** September 9th @ 6 PM, Jones PDR
+- **Day 2:** September 11th @ 7 PM, Jones PDR
 
 ### How It Works
 * **No Prep Needed:** You don’t need to prepare a song or have anything ready! Just bring yourself
