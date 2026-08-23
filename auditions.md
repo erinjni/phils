@@ -7,7 +7,7 @@ subtitle: How can I join the Phils?
 ## 2026-2027 Auditions
 
 ### Rice Acapella Info Session
-**Date:** _______  
+**Date:** September 3rd @ 7 PM  
 Come meet all 6 Rice acapella groups! You’ll learn about all the different groups and can ask any questions you have.
 
 ### Phils Audition Dates
