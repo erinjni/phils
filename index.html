@@ -472,11 +472,13 @@ full-width: true
             normalImg.src = `/assets/img/${member.headshot}`;
             normalImg.className = 'member-img normal';
             normalImg.alt = 'Member photo';
+            normalImg.loading = 'lazy';
             
             const sillyImg = document.createElement('img');
             sillyImg.src = `/assets/img/${member.silly}`;
             sillyImg.className = 'member-img silly';
             sillyImg.alt = 'Member silly photo';
+            sillyImg.loading = 'lazy';
             
             // Add click handler to navigate to members page with hash
             circle.onclick = () => {
