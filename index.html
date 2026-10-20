@@ -224,21 +224,6 @@ full-width: true
         .member-circle:hover .member-img.normal {
             opacity: 0;
         }
-
-        /* Update responsive styles if needed */
-        @media (max-width: 1024px) {
-            .member-circle {
-                width: 100px;
-                height: 100px;
-            }
-        }
-
-        @media (max-width: 768px) {
-            .member-circle {
-                width: 90px;
-                height: 90px;
-            }
-        }
         
         /* Gigs Section */
         .gigs-section {
@@ -313,7 +298,7 @@ full-width: true
             }
             
             .members-grid {
-                grid-template-columns: repeat(4, 90px);
+                grid-template-columns: repeat(4, 75px);
                 gap: 15px;
             }
             
@@ -323,13 +308,14 @@ full-width: true
             }
             
             .member-circle {
-                width: 90px;
-                height: 90px;
+                width: 75px;
+                height: 75px;
             }
             
             .gigs-section .section-content {
                 max-width: 100%;
             }
+            
         }
     </style>
 </head>
