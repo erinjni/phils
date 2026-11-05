@@ -104,6 +104,21 @@ newx9:
       id: "member14"
 
 alumni:
+  - name: "Dhilani Premaratne"
+    grad_year: 2026
+    college: "Jones"
+    major: "Neuroscience, Biochemistry, Medical Humanities"
+    positions: "President, Publicity Manager"
+  - name: "Erin Ni"
+    grad_year: 2026
+    college: "Jones"
+    major: "Electrical and Computer Engineering, Engineering Design"
+    positions: "Webmaster"
+  - name: "Josh Paik"
+    grad_year: 2026
+    college: "Duncan"
+    major: "Chemistry, Biochemistry"
+    positions: "Music Director"
   - name: "Rita Ajit"
     grad_year: 2025
     college: "Lovett"
