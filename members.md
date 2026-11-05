@@ -437,8 +437,8 @@ full-width: true
     <div class="year-section" id="newx10-section">
         <h2 class="year-title">New x10 Phils</h2>
         
-        <div class="slideshow" data-year="newx9">
-            {% for image in site.data.members.newx9.slideshow %}
+        <div class="slideshow" data-year="newx10">
+            {% for image in site.data.members.newx10.slideshow %}
             <img src="/assets/img/{{ image }}" alt="Newx10 Group Photo" class="slideshow-image {% if forloop.first %}active{% endif %}">
             {% endfor %}
             <div class="slideshow-nav">
