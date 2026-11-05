@@ -61,7 +61,7 @@ full-width: true
     }
 
     .slideshow-image[src$="newx7.1.webp"] {
-        object-position: center 30%;
+        object-position: center 20%;
     }
 
     /* This one needs its full height shown */
