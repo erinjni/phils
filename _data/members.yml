@@ -1,107 +1,117 @@
 # _data/members.yml
 # Update this file each year with new member information
 
-newx6:
-  year: "Newx6 Phils"
-  slideshow:
-    - newx6.1_comp.jpg
-    - newx6.2_comp.jpg
-    - newx6.3_comp.jpg
-  members:
-    - name: "Josh Paik '26"
-      headshot: bosh_comp.jpg
-      silly: bosh silly_comp.jpg
-      blurb: "biggest bigback, belly slapper, goon but also big brain I know both musically and academically. Ngl when I found out Josh was premed I was a little surprised. Like I can see his nerdy side but lowky he’s too much of a goon sometimes for me to take him seriously. Favorite hobbies include yapping, beatboxing, producing Phil’s music on fondy first floor, laughing at his own jokes, eating and more eating. - Elie Park '28"
-      id: "member1"
-    - name: "Dhilani Premaratne '26"
-      headshot: dhilani_comp.jpg
-      silly: dhilani silly_comp.jpg
-      blurb: "Everyone meet our wonderphul and Phil’s phavorite phresident Dhilani Premaratne! This senior(so sad don’t leave us) at Jones hailing all the way phrom Miami, Phlorida is quite the studious phil majoring in Neuroscience, Biochemistry, and Medical Humanities! She’s also quite the diverse musician and sings everything from mezzo, soprano, and alto! As an avid Beli user, you’ll find her in your local coffee shops locking in(yapping). The iron phist(warmth and kindness) she rules(graces us with) is something the Phils will never be complete without! - Kairi Mano '27"
-      id: "member2"
-    - name: "Erin Ni '26"
-      headshot: erin_comp.jpg
-      silly: erin silly_comp.jpg
-      blurb: "Get hype! Erin is a Senior and ECE major Engineering Design minor! Wow! She’s from Sunnyvale and Jones College, and, watch out!- she’s a black belt in karate. She likes hiking and going to the gym, tea, and hot pot is her favorite food. Yum! She is also a master clarinet player, so if you ever see her, be sure to ask her to play something (or else she’ll be really sad). Additionally, she is beautiful, stunning, and drop-dead gorgeous- and she sings with the voice of an angel. - Lauren Hunsaker '29"
-      id: "member3"
-
 newx7:
   year: "Newx7 Phils"
   slideshow:
-    - newx7.1_comp.jpg
-    - newx7.2_comp.jpg
-    - newx7.3_comp.jpg
+    - newx7.1.webp
+    - newx7.2.webp
+    - newx7.3.webp
   members:
     - name: "Kairi Mano '27"
-      headshot: kairi_comp.jpg
-      silly: kairi silly_comp.jpg
-      blurb: "Have you watched a recent phils performance on youtube?? Did you notice the pristine quality and craftsmanship of the camera work??? Well, you owe a big thank you to the Phils’ very own recording manager: Kairi Mano!! 🤩 With a camera practically glued to his side, this guy never fails to show off his creativeness— ooh you wanna click on this link so bad to see his portfolio https://kairimano.com —but he also knows when to lock in for his sports management major and stat and data science minors. Gracing us with his beautiful bari/tenor voice all the way from Tokyo, Japan, Kairi is also a junior at Lovett, and he’ll never let you forget that it’s the “best college”…his words, not mine. Whether he’s fueling his caffeine addiction at Chaus, going on a run around campus, or doing a backflip at acappellooza, everyone can find a reason to love Kairi! We’re so glad to have his talents and cinematography skills in the Phils, so we hope you keep enjoying the silly little vlogs he creates as well as sitting back and listening to him sing!! - Sarah Bradley '29"
-      id: "member4"
+      headshot: kairi.webp
+      silly: kairi silly.webp
+      blurb: "In the middle of the rush of the city, he manages, he is creative, he is diligent. You don’t know if he loves or hates everything, but you do know he’s the goat. Behind the music staff, behind the lens, whatever he’s doing he’s doing  the best. Accidentally slightly insulting, yet funny and kind, he leads our great group along our arrangements. From TOKYO, JAPAN, we have the best MLB photographer, music director, and future sports manager/data analyzerrrrrr….We have….🥁🥁🥁🥁….KAIRI MANO!!We love you, Kairi! Even when you misread our starting notes!🎶🥳🤗 - Valeria González Reed '30"
+      id: "member1"
     - name: "Jordan Murray '27"
-      headshot: jordan_comp.jpg
-      silly: jordan silly_comp.jpg
-      blurb: "I heard there was a secret chord that Jordan sang and he left us floored—but does he actually know any music? Apparently not. Meet Jordan, our amazing bass from Lake Charles, Louisiana, now in his third year with the Phils! This electrical engineering major has a voice with crazy range and can nail any song you throw at him, which is ironic because he barely recognizes any of them. Jordan is the foundation of our group in more ways than one—his deep voice grounds us and holds us together, and he's ALWAYS there on time (if any of us are late to rehearsal we face his wrath). Beyond his soothing voice and calming presence, Jordan also arranges music for us and we can't wait for you all to hear what he brings to the Phils this year! - Erin Ni '26"
-      id: "member5"
+      headshot: jordan.webp
+      silly: jordan silly.webp
+      blurb: "Whose eyes do you feel glaring into your soul when you show up 10 minutes late UNEXCUSED to a Phils rehearsal? Why, none other than the Phils Wonderful Webmaster, Jordan Murray! Jordan is a senior Electrical Engineering major from Duncan, and he’s been singing bass in the Phils for FOUR WHOLE YEARS (unc for real). He’s a true triple threat; whether anchoring our ensemble with his resonant bass, singing a pitch-perfect solo, or arranging jazzy tunes (PLUS acting PLUS dazzling us all with his prodigious musical theater knowledge, his talents truly know no bounds), he’s a fantastic member of the team. He’s also just a really cool guy; you can always count on him to pick up on your obscure reference, support other Phils at their events and performances, and use his IMPECCABLE music taste to give recs. We can’t wait for you to hear this Phantastic Phils’ skills!!!! - Ella Martinez 28’"
+      id: "member2"
 
 newx8:
   year: "Newx8 Phils"
   slideshow:
-    - newx8.1_comp.jpg
-    - newx8.2_comp.jpg
-    - newx8.3_comp.jpg
+    - newx8.1.webp
+    - newx8.2.webp
+    - newx8.3.webp
   members:
-    - name: "Ella Martinez '28"
-      headshot: ella_comp.jpg
-      silly: ella silly_comp.jpg
-      blurb: "Time to cElla-brate because we’re introducing our beautiful Ella!!! Ellavation and Ellation come when we’re all with Ella! As treasurer for the Phils, Ella treasures us almost as much as we treasure her presence and her smooth, silky, and incredibly impressive soprano range. Don’t be fooled by her rbf because Ella’s the sweetest cinnamon roll at heart. One thing you should know about this Lovetteer is that while she is a BioSciences (and English!) major, she is NOT pre-med (and will make sure you know that). She’s actually the most passionate person you’ll meet about astrobiology (wow! cool!). Aside from rocking it with the Phils, Ella is also a prominent figure in the theater scene at Rice (ooh! ahh!) and consistently graces the stages of every college (theater kid!) with an awesome performance every time. Ella’s an integral part of the Phils, and we can’t wait to have her around again! - Dhilani Premaratne '26"
-      id: "member6"
+    - name: "Zach Mok '27"
+      headshot: zach.webp
+      silly: zach silly.webp
+      blurb: "Phriends, phamily, and phenomenal acquaintances, when you think of a Zach, who do you think of? Some may think of Zac Efron, others may think of Zack from Suite Life on Deck, but there's one Zach who surpasses them all: our very own PHRESIDENT, x8 Phil Zach Mok. Yo no hablo español, but I do know that Zach is the muy mejor phresidente that the Phils has ever seen. As a Spanish major, Medical Humanities minor on the pre-med track, Mr. Phresident is the definition of being the jack of all trades-- and he's the master of ALL of them! Got any problems? Well have no fear, Zachary is our resident Community Facilitator so that all Phils can have the utmost amount of phun phor the ages. Because of him, we're practically phroblemless. Even though he isn't FULL-ipino, he is our favorite half- Filipino, half-Chinese Phil (even if he's the only one). We are so happy to have Zach's beautiful voice (adjacent to that of Charlie Puth), phenomenal leadership, and phantastic humor in the Phils and we are so happy that he was our chosen leader. - Shruthi Lingam '30"
+      id: "member3"
     - name: "Jace Liu '28"
-      headshot: jace_comp.jpg
-      silly: jace silly_comp.jpg
-      blurb: "What’s that sound?!?! Could it be Mickey Mouse? Elmo??? This serenading tenor/alto voice could only belong to… you guessed it - JACE LIU!!!!! This incredible Phil is mutlitalented. From MOB, to Duncan theater (ask him about his unfortunate affection), to astounding arrangements, the only thing he can’t conquer is spicy food. As the Phil’s’ resident chef, he graces those around him  with culinary masterpieces. What would we do without his delectable sweet treats?!!?!? (I’m glad we never have to phind out). Jace is a Duncan sophomore majoring in psychology. Representing the pre-meds, this new x8 skibidi Ohio (Cleveland, specifically) Phil is a central part of our phamily. - Hannah Gormley '29"
-      id: "member7"
-    - name: "Josh Yang '27"
-      headshot: losh_comp.jpg
-      silly: losh silly_comp.jpg
-      blurb: "Now introducing the man, the myth, the legend… Josh Yang! The smaller of our two Joshes, this short king loves serenading us with his angelic whistling and his beautiful, buttery-smooth baritone/tenor/bass voice (like, how is one person this talented?). When he’s not serenading you, this junior Martelian majors in Asian Studies and Linguistics, is a baking fiend—especially when it comes to his scrumdiddlyumptious matcha madeleines—and is always dressed to impress. Beyond his brilliant baking, academic, and musical prowess, Josh is always an upbeat, positive presence in rehearsals, and you just have to come see him in concert! And maybe, if you’re lucky, you’ll be graced by his enchanting whistling. - Mason Kwon '29"
-      id: "member8"
-    - name: "Zach Mok '28"
-      headshot: zach_comp.jpg
-      silly: zach silly_comp.jpg
-      blurb: "When your mom says \"we don't need Jungkook, we have Jungkook at home,\" Zach is exactly who she's talking about! Not only is he a Spanish major and Medical Humanities minor, this half-Filipino new x8 Phil is the current Business Manager for the Phils and no one is doing it like he is. Between booking us for philanthropic gigs, crashing out over the next orgo and physics exams, sliding into your DMs with his exquisite mouth trumpeting, and being On The Pre-Med Track, we really have no idea how he has the time to be Standing Next to You. Whether you need him to drive you to Whataburger at 10pm for an impromptu late-night snack or you need a buddy for a concert that you impulsively bought two tickets for because they cost you $12.63 in total with tax and fees, Zach is (usually) down and enthusiastic for a chance to hang out and make some everlasting memories. Every day, the Phils bow down to Zach in holy reverence for his Complete and Total Utter Awesomeness and Cool Ohio Skibidi Rizz, and we thank him for his Twinkatron services at least bimonthly. As we like to say in the Phils, you know that all night long Zach Mok to this! - Jace Liu '28"
-      id: "member9"
+      headshot: jace.webp
+      silly: jace silly.webp
+      blurb: "Introducing x8 Phil Jace Liu!!! That’s Jace with a C and NOT an S. Why would anyone even think it’s spelled with an S haha...ha…. Here’s an easy way to remember: C for Cool as heck?? Jace has many skills. He sings, and does a damn good job. Tenor? Alto? No matter, Jace has got you covered. He plays for the MOB and serves as the band’s event coordinator. He also participates in various college theatre- thank goodness that voice is being shared all over Rice. Imagine what could happen if the whole world could hear him sing… Probably world peace. This Fondren Fellow is a Junior at Duncan college and majoring in psychology. Honorable mentions: cool laptop stickers and tote bags. The Phils are so lucky to have this glorious voice and wonderful personality among them. - Bailey Boles '30"
+      id: "member4"
+    - name: "Ella Martinez '28"
+      headshot: ella.webp
+      silly: ella silly.webp
+      blurb: "Introducing the amazing Ella Martinez!! This soprano hails from the beautiful state of Washington, and is majoring in Biosciences. So not only does she have the voice of an angel, she’s also super smart! Ella is also very involved in Rice theatre and is the musical director for Cabaret (Wowww so cool!) Ella is from the BEST college on campus, LOVETT (absolutely no bias here btw) so that’s how you know that she’s the nicest, funniest, and coolest person ever and we’re all so grateful that she’s in the Phils! - Jenna Abu Ghali '30"
+      id: "member5"
 
 newx9:
   year: "Newx9 Phils"
   slideshow:
-    - newx9.1_comp.jpg
-    - newx9.2_comp.jpg
-    - newx9.3_comp.jpg
+    - newx9.1.webp
+    - newx9.2.webp
+    - newx9.3.webp
   members:
     - name: "Mason Kwon '29"
-      headshot: mason_comp.jpg
-      silly: mason silly_comp.jpg
-      blurb: "If you spot a Phil at Chaus, there’s a very good chance that it’s Mason Kwon, who managed to rapidly deplete his Tetra halfway through his first semester at Rice. You can’t really blame him, though- as a freshman Archi major, overcaffination is definitely a must. Mason hails from the great state of Louisiana, but now calls Sid Rich his home. Although he’s now a Phil through and through, Mason actually has a penchant for classical music, both with casual listening and playing violin in the Campanile orchestra (we love a multitalented musician)!! We’re so glad to have his talent in the Phil’s, and can’t wait to make music with him this year!!!!! - Ella Martinez '28"
-      id: "member10"
+      headshot: mason.webp
+      silly: mason silly.webp
+      blurb: "B-b-b-b-bass Mason Kwon back at it again to grace us with his angelic voice 👼 (and potential beatboxing skill 😱). Hailing from New Orleans, Louisiana and a loyal Sidizen, the Phils' resident Markiplier clone is a man of many talents. A violinist with exquisite taste in classical music, a coffee aficionado who always has a cup of joe in his hand, and just being an all around great guy. Need someone to build a wonder of the world in your backyard? Worry not, he's an Architecture major who boasts skills that put the Sangrada Familia to shame. This year, the phils have the honor of having him as our business major (woth a hefty 40% commision), so look forward to seeing us do all sorts of gigs around Houston! - Jordan Murray '27"
+      id: "member6"
     - name: "Hannah Gormley '29"
-      headshot: hannah_comp.jpg
-      silly: hannah silly_comp.jpg
-      blurb: "Neighhhhhhhh!!! 🐎 Your favorite horse girl has arrived! Introducing Hannah Gormley, the Soprano diva!!! “I’m from DC!” she says… BUT SHE’S NOT. SHE US FROM BETHESDA, MARYLAND. Anyway… this premed(?) girlie is majoring in neuroscience (a piece of cake for this “brainy” queen 🧠). When she’s not riding horses or studying for the next orgo exam, you can find her jamming out to theater tunes! If you love Tex-Mex, you know where to find someone to go on a taco adventure. If you ever find someone riding a horse with a warm smile and a taco in one hand, you’ve found Hannah!!!! - Josh Yang '27"
-      id: "member11"
-    - name: "Elie Park '28"
-      headshot: elie_comp.jpg
-      silly: elie silly_comp.jpg
-      blurb: "Worried about your plans for this summer? If you’re looking for someone to secure you an internship, worry no longer! Elie’s got you covered. A sophomore Bakerite from Dallas, Texas, you can find Elie applying for her next big opportunity or working on projects as a Team Lead for 180 Degrees Consulting. You’ll never be afraid to crack jokes when Elie’s around, since she’s always full of laughter! Make sure to hit this business-psychology double major up if you’re ever looking for company during a good meal or wanting to jam out to Olivia Dean. This alto never fails to bring a smile to our faces, and we’re super glad to have her in the Phils! - Zach Mok '28"
-      id: "member12"
+      headshot: hannah.webp
+      silly: hannah silly.webp
+      blurb: "Hannah, oh, Hannah Banana, banana. Philharmonics’ shining star, What have I learned about Hannah so far? Hailing from the faraway Maryland, DC, A neuroscience major, a doctor she shall be. Full of joy and love for miles and miles, She is sure to greet you with her signature smiles. Hannah, dear Hannah, she loves her showtunes. And her birthday, the 16th of April, not June. But how does Hannah get around? You ask. Walking from Lovett is a Herculean task! Fear not, dear friends, because, of course. You will surely find Hannah riding a horse. With a whinny and a neigh this poem comes to a close. Now you know all of Hannah that anyone knows! - Ruby Garza '30"
+      id: "member7"
     - name: "Sarah Bradley '29"
-      headshot: sarah_comp.jpg
-      silly: sarah silly_comp.jpg
-      blurb: "Are you guys ready for our very own Brown College Resident?! Meet Sarah, an alto from Dallas, TX. She's DOUBLE majoring in psychology and sociology 🧠🤯, so please feel free to ask her all your existential questions. When she's not too busy on the Theatre stage, she also dabbles in a bit of sports photography ⚽️⚾️🤸‍♂️🏌‍♂️📷. Hope you guys feel as lucky to meet her as the Phils are to have her! - Jordan Murray '27"
-      id: "member13"
+      headshot: sarah.webp
+      silly: sarah silly.webp
+      blurb: "Meet Sarah Bradley! Our one and only Brown Resident, coming IN STATE from Dallas Texas she’s an Alto who’s DOUBLE MAJORING in psychology and sociology!!! ✨🧠✨. When you can’t find her at rehearsal she’s usually on the stage! OR being our AMAZING Publicity Manager (follow @ricephilarhonics btw). OR OR being an amazing sport photographer!! - Thomas Ryan '30"
+      id: "member8"
     - name: "Lauren Hunsaker '29"
-      headshot: lauren_comp.jpg
-      silly: lauren silly_comp.jpg
-      blurb: "Meet Lauren, a freshman from the bustling metropolis of McKinney, TX, where dreams are big and naps are even bigger. Currently majoring in something (we’ll update you when she figures that out), she’s at least minoring in theatre, which explains her dramatic entrances into the middle of rehearsal. When Lauren’s not performing, she’s probably either buried in a book or asking all of the grown-ups around her, “Do you have any games on your phone?” - Josh Paik '26"
+      headshot: lauren.webp
+      silly: lauren silly.webp
+      blurb: "Get a load of this guy! Lauren Hunsaker is a sophomore from Baker College majoring in English and minoring in Theatre. You’ve probably never been to her hometown of McKinney, Texas, but that’s ok because she’s found another home in Rice’s acappella and theatre community. When she’s not giving you the shocked pikachu face in rehearsal, you can probably find her at Hamman Hall in a Rice Theatre production or with her nose in her computer as she prepares to tackle the great big task of directing Chaovett’s spring production of Chicago. If you ever need someone to yap to you about her special interest in theatre or ask you if you’ve got any games on your phone, Lauren’s your Phil! - Jace Liu '28"
+      id: "member9"
+
+newx10:
+  year: "Newx10 Phils"
+  slideshow:
+    - newx10.1.webp
+    - newx10.2.webp
+    - newx10.3.webp
+  members:
+    - name: "Jenna Abu Ghali '30"
+      headshot: jenna.webp
+      silly: jenna silly.webp
+      blurb: "Here in Texas, the stars at night are big and bright, and this new x10 Phil is no exception because she’s such a star with the biggest and brightest smile you’ll ever see!! Coming to us live all the way from Abu Dhabi, meet Jenna: an alto of many talents, killer makeup looks, and has both a sweet personality and sweet tooth (seriously, ask her about her love for HEB sweet tea and donuts…). This Political Science and Economics double major Lovetteer has a stacked schedule, but when she’s not in rehearsals for the Phils you can probably find her on the court for our club tennis team! And her fashion sense?? Immaculate. If there’s an award for best dressed, she’ll probably win it (and her jewelry is always perfect too)! We’re so glad to have Jenna in our group, and we can’t wait to make music with her this year!!! - Sarah Bradley '29"
+      id: "member10"
+    - name: "Thomas Ryan '30"
+      headshot: thomas.webp
+      silly: thomas silly.webp
+      blurb: "He’s a bass, he’s a STAR 🤩, he’s… Thomas T-Bone Ryan!!! A freshman, T-bone hails straight out of San Jose, California, but now he calls Martel college his home. By day, he double majors in business and history, and by night, Thomas graces us with his beautiful bass-baritone voice. Aside from his angelic vocals, Thomas is always ready to make you laugh, and we’re so glad to have him in our Phamily, and we can’t wait for you to hear this ✨star✨ in concert!!! - Mason Kwon '29"
+      id: "member11"
+    - name: "Shruthi Lingam '30"
+      headshot: shruthi.webp
+      silly: shruthi silly.webp
+      blurb: "Meet SHRUTHI LINGAM, an Olympian from MARTEL College. This BROWN BADDIE brought her whole family to the Phils this year, but her beautiful soprano voice is one of a kind. Although she is locked in on Biology and Phre med (WOWW), she is also locked in on being super SPIRITED and FUNNY. Look for a broken ipad case and a Ramones shirt and you’ve probably found Shruthi. If you ever want to talk about anything AND everything, she’s the one for you. Probably the KINDEST PHERSON you’ll meet, you wouldn’t want to look past THIS Phil. - Vikram Srinivas '30"
+      id: "member12"
+    - name: "Bailey Boles '30"
+      headshot: bailey.webp
+      silly: bailey silly.webp
+      blurb: "Who is that Bai-utiful, Bai-yond talented, Bai-loved Baddie passing over yonder? It’s none other than BAILEY BOLES🤩‼️ This serenading soprano doesn’t just sing, she’s also a dedicated thespian- truly she does it all! This Merlin fan also boasts of many hidden talents - she was runner up in the spelling bee (don’t ask her to spell elanguescence), she can whip you into shape, and she is anything but a mean girl. Bailey’s infectious smile and enormous heart truly are supernatural. We are so lucky to have this amazing Phil joining the Phamily this year 🫶🫶🫶 - Hannah Gormley '29"
+      id: "member13"
+    - name: "Vikram Srinivas '30"
+      headshot: vikram.webp
+      silly: vikram silly.webp
+      blurb: "Who’s that singing the most beautiful of “My Way” by Frank Sinatra? It’s none other than Vikram Srinivas!!! This dapper baritone is Milwaukee-born but hails from the Home of the Blues (Memphis, Tennessee). As a chemical engineering major, you can find this Jonesian freshman grinding… CMOR…, or using his creative brain to design killer immersive escape rooms with Rice Escape, or… in a theatre production? That’s right—Vikram LOVES to both act AND sing! If you ever wanted to talk to this multitalented king, just strike up a conversation about Brent Faiyaz or Premier League football (but don’t try to argue with him about which team is the best, because he will tell you it is Manchester City). Vikram has a serene voice that will knock your literal socks off, and the chill vibes he brings to the Phils are always appreciated. - Zach Mok '28"
       id: "member14"
+    - name: "Ruby Garza '30"
+      headshot: ruby.webp
+      silly: ruby silly.webp
+      blurb: "Hellooo phriends and phans! Let me introduce you to one of our phunniest phils from Dallas, Texas: Ruby Garza! If you don’t see this new*10 Phil amaze with her banger vocals, you’ll catch her making you laugh with Spontaneous Combustion! This mezzo is one with many creative talents, spanning from singing, theater, to even filmmaking. By day she’s an English major with creativity again on phull display. It’s been a blessing to get to know this Phil, and we can’t wait for y’all to see what she brings to the Phils this year! - Kairi Mano '27"
+      id: "member15"
+    - name: "Valeria González Reed '30"
+      headshot: valeria.webp
+      silly: valeria silly.webp
+      blurb: "You’ve never had a real hug until you’ve met our most lovable Mezzo/Alto Valeria! Studying Business and Bioengineering with a proficiency for guitar and calligraphy, you can be sure that this Phil is VERY talented. Speaking of talent, she has a singing voice you would hear in your dreams because it’s just that good. 💥💥 - Lauren Hunsaker '29"
+      id: "member16"
 
 alumni:
   - name: "Dhilani Premaratne"

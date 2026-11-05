@@ -58,6 +58,15 @@ full-width: true
 <h2>Photo Archive</h2>
 
 <details>
+  <summary style="cursor: pointer; font-size: 1.2rem; font-weight: bold; margin: 10px 0;">2025-2026</summary>
+  <div class="archive-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 10px;">
+    <img src="/assets/img/Archive/phils25_26.1.webp" style="width: 100%;"/>
+    <img src="/assets/img/Archive/phils25_26.2.webp" style="width: 100%;"/>
+    <img src="/assets/img/Archive/newx6.webp" style="width: 100%;"/>
+  </div>
+</details>
+
+<details>
   <summary style="cursor: pointer; font-size: 1.2rem; font-weight: bold; margin: 10px 0;">2024-2025</summary>
   <div class="archive-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 10px;">
     <img src="/assets/img/Archive/2024phils.jpeg" style="width: 100%;"/>
