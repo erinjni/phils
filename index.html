@@ -430,22 +430,9 @@ full-width: true
         // Generate member circles (14 members arranged 7-7)
         // Member data with photos and IDs
         const members = [
-            { headshot: 'kairi.webp', silly: 'kairi silly.webp', id: 'member1' },
-            { headshot: 'jordan.webp', silly: 'jordan silly.webp', id: 'member2' },
-            { headshot: 'zach.webp', silly: 'zach silly.webp', id: 'member3' },
-            { headshot: 'jace.webp', silly: 'jace silly.webp', id: 'member4' },
-            { headshot: 'ella.webp', silly: 'ella silly.webp', id: 'member5' },
-            { headshot: 'mason.webp', silly: 'mason silly.webp', id: 'member6' },
-            { headshot: 'hannah.webp', silly: 'hannah silly.webp', id: 'member7' },
-            { headshot: 'sarah.webp', silly: 'sarah silly.webp', id: 'member8' },
-            { headshot: 'lauren.webp', silly: 'lauren silly.webp', id: 'member9' },
-            { headshot: 'jenna.webp', silly: 'jenna silly.webp', id: 'member10' },
-            { headshot: 'thomas.webp', silly: 'thomas silly.webp', id: 'member11' },
-            { headshot: 'shruthi.webp', silly: 'shruthi silly.webp', id: 'member12' },
-            { headshot: 'bailey.webp', silly: 'bailey silly.webp', id: 'member13' },
-            { headshot: 'vikram.webp', silly: 'vikram silly.webp', id: 'member14' },
-            { headshot: 'ruby.webp', silly: 'ruby silly.webp', id: 'member15' },
-            { headshot: 'valeria.webp', silly: 'valeria silly.webp', id: 'member16' }
+        {% for year in site.data.members %}{% if year[0] != 'alumni' %}{% for m in year[1].members %}
+            { headshot: {{ m.headshot | jsonify }}, silly: {{ m.silly | jsonify }}, id: {{ m.id | jsonify }}, position: {{ m.position | default: 'center top' | jsonify }}, zoom: {{ m.zoom | default: 1 | jsonify }} },
+        {% endfor %}{% endif %}{% endfor %}
         ];
 
         // Generate member circles with photos
@@ -454,25 +441,31 @@ full-width: true
             const circle = document.createElement('div');
             circle.className = 'member-circle';
             circle.style.animationDelay = `${i * 0.05}s`;
-            
-            // Create image elements
+
             const normalImg = document.createElement('img');
             normalImg.src = `/assets/img/${member.headshot}`;
             normalImg.className = 'member-img normal';
             normalImg.alt = 'Member photo';
             normalImg.loading = 'lazy';
-            
+
             const sillyImg = document.createElement('img');
             sillyImg.src = `/assets/img/${member.silly}`;
             sillyImg.className = 'member-img silly';
             sillyImg.alt = 'Member silly photo';
             sillyImg.loading = 'lazy';
-            
-            // Add click handler to navigate to members page with hash
+
+            // NEW: per-member crop and zoom
+            [normalImg, sillyImg].forEach(img => {
+                const pos = member.position || 'center top';
+                img.style.objectPosition = pos;
+                img.style.transformOrigin = pos;
+                img.style.transform = `scale(${member.zoom || 1})`;
+            });
+
             circle.onclick = () => {
                 window.location.href = `/members#${member.id}`;
             };
-            
+
             circle.appendChild(normalImg);
             circle.appendChild(sillyImg);
             membersGrid.appendChild(circle);

@@ -59,6 +59,16 @@ full-width: true
         opacity: 0;
         transition: opacity 1s ease-in-out;
     }
+
+    .slideshow-image[src$="newx7.1.webp"] {
+        object-position: center 30%;
+    }
+
+    /* This one needs its full height shown */
+    .slideshow-image[src$="newx7.3.webp"] {
+        object-fit: contain;
+        background: #f5f7fa;
+    }
     
     .slideshow-image.active {
         opacity: 1;
@@ -355,8 +365,8 @@ full-width: true
             {% for member in site.data.members.newx7.members %}
             <div class="member-card" id="{{ member.id }}">
                 <div class="member-photo-container" onclick="toggleBlurb('{{ member.id }}')">
-                    <img src="/assets/img/{{ member.headshot }}" alt="{{ member.name }}" class="member-photo normal">
-                    <img src="/assets/img/{{ member.silly }}" alt="{{ member.name }}" class="member-photo silly">
+                    <img src="/assets/img/{{ member.headshot }}" alt="{{ member.name }}" class="member-photo normal" style="object-position: {{ member.position | default: 'center top' }}; transform: scale({{ member.zoom | default: 1 }}); transform-origin: {{ member.position | default: 'center top' }};">
+                    <img src="/assets/img/{{ member.silly }}" alt="{{ member.name }}" class="member-photo silly" style="object-position: {{ member.position | default: 'center top' }}; transform: scale({{ member.zoom | default: 1 }}); transform-origin: {{ member.position | default: 'center top' }};">
                 </div>
                 <div class="member-name">{{ member.name }}</div>
                 <div class="member-blurb" id="{{ member.id }}-blurb">
@@ -386,8 +396,8 @@ full-width: true
             {% for member in site.data.members.newx8.members %}
             <div class="member-card" id="{{ member.id }}">
                 <div class="member-photo-container" onclick="toggleBlurb('{{ member.id }}')">
-                    <img src="/assets/img/{{ member.headshot }}" alt="{{ member.name }}" class="member-photo normal">
-                    <img src="/assets/img/{{ member.silly }}" alt="{{ member.name }}" class="member-photo silly">
+                    <img src="/assets/img/{{ member.headshot }}" alt="{{ member.name }}" class="member-photo normal" style="object-position: {{ member.position | default: 'center top' }}; transform: scale({{ member.zoom | default: 1 }}); transform-origin: {{ member.position | default: 'center top' }};">
+                    <img src="/assets/img/{{ member.silly }}" alt="{{ member.name }}" class="member-photo silly" style="object-position: {{ member.position | default: 'center top' }}; transform: scale({{ member.zoom | default: 1 }}); transform-origin: {{ member.position | default: 'center top' }};">
                 </div>
                 <div class="member-name">{{ member.name }}</div>
                 <div class="member-blurb" id="{{ member.id }}-blurb">
@@ -417,8 +427,8 @@ full-width: true
             {% for member in site.data.members.newx9.members %}
             <div class="member-card" id="{{ member.id }}">
                 <div class="member-photo-container" onclick="toggleBlurb('{{ member.id }}')">
-                    <img src="/assets/img/{{ member.headshot }}" alt="{{ member.name }}" class="member-photo normal">
-                    <img src="/assets/img/{{ member.silly }}" alt="{{ member.name }}" class="member-photo silly">
+                    <img src="/assets/img/{{ member.headshot }}" alt="{{ member.name }}" class="member-photo normal" style="object-position: {{ member.position | default: 'center top' }}; transform: scale({{ member.zoom | default: 1 }}); transform-origin: {{ member.position | default: 'center top' }};">
+                    <img src="/assets/img/{{ member.silly }}" alt="{{ member.name }}" class="member-photo silly" style="object-position: {{ member.position | default: 'center top' }}; transform: scale({{ member.zoom | default: 1 }}); transform-origin: {{ member.position | default: 'center top' }};">
                 </div>
                 <div class="member-name">{{ member.name }}</div>
                 <div class="member-blurb" id="{{ member.id }}-blurb">
@@ -448,8 +458,8 @@ full-width: true
             {% for member in site.data.members.newx10.members %}
             <div class="member-card" id="{{ member.id }}">
                 <div class="member-photo-container" onclick="toggleBlurb('{{ member.id }}')">
-                    <img src="/assets/img/{{ member.headshot }}" alt="{{ member.name }}" class="member-photo normal">
-                    <img src="/assets/img/{{ member.silly }}" alt="{{ member.name }}" class="member-photo silly">
+                    <img src="/assets/img/{{ member.headshot }}" alt="{{ member.name }}" class="member-photo normal" style="object-position: {{ member.position | default: 'center top' }}; transform: scale({{ member.zoom | default: 1 }}); transform-origin: {{ member.position | default: 'center top' }};">
+                    <img src="/assets/img/{{ member.silly }}" alt="{{ member.name }}" class="member-photo silly" style="object-position: {{ member.position | default: 'center top' }}; transform: scale({{ member.zoom | default: 1 }}); transform-origin: {{ member.position | default: 'center top' }};">
                 </div>
                 <div class="member-name">{{ member.name }}</div>
                 <div class="member-blurb" id="{{ member.id }}-blurb">
