@@ -55,7 +55,7 @@ full-width: true
         width: 100%;
         height: 100%;
         object-fit: cover;
-        object-position: center top;
+        object-position: center center;
         opacity: 0;
         transition: opacity 1s ease-in-out;
     }
@@ -110,6 +110,17 @@ full-width: true
     .members-grid.grid-3-2 {
         grid-template-columns: repeat(3, 250px);
     }
+
+    .members-grid.grid-7 {
+    grid-template-columns: repeat(3, 250px);
+    }
+
+    /* Center the 7th member on the last row */
+    .members-grid.grid-7 .member-card:last-child {
+        grid-column: 2;
+    }
+
+
     
     /* Member Card */
     .member-card {
@@ -275,6 +286,14 @@ full-width: true
         .members-grid.grid-3-2 {
             grid-template-columns: repeat(2, 250px);
         }
+        .members-grid.grid-7 {
+            grid-template-columns: repeat(2, 250px);
+        }
+
+        /* Un-center the last card in the 2-column layout */
+        .members-grid.grid-7 .member-card:last-child {
+            grid-column: auto;
+        }
     }
     
     @media (max-width: 768px) {
@@ -290,6 +309,10 @@ full-width: true
         .members-grid.grid-2,
         .members-grid.grid-2x2,
         .members-grid.grid-3-2 {
+            grid-template-columns: 1fr;
+            gap: 30px;
+        }
+        .members-grid.grid-7 {
             grid-template-columns: 1fr;
             gap: 30px;
         }
@@ -312,36 +335,6 @@ full-width: true
 
 
 <div class="members-container">
-    <!-- Newx6 Section -->
-    <div class="year-section" id="newx6-section">
-        <h2 class="year-title">New x6 Phils</h2>
-        
-        <div class="slideshow" data-year="newx6">
-            {% for image in site.data.members.newx6.slideshow %}
-            <img src="/assets/img/{{ image }}" alt="Newx6 Group Photo" class="slideshow-image {% if forloop.first %}active{% endif %}">
-            {% endfor %}
-            <div class="slideshow-nav">
-                {% for image in site.data.members.newx6.slideshow %}
-                <div class="slideshow-dot {% if forloop.first %}active{% endif %}" data-index="{{ forloop.index0 }}"></div>
-                {% endfor %}
-            </div>
-        </div>
-        
-        <div class="members-grid grid-3">
-            {% for member in site.data.members.newx6.members %}
-            <div class="member-card" id="{{ member.id }}">
-                <div class="member-photo-container" onclick="toggleBlurb('{{ member.id }}')">
-                    <img src="/assets/img/{{ member.headshot }}" alt="{{ member.name }}" class="member-photo normal">
-                    <img src="/assets/img/{{ member.silly }}" alt="{{ member.name }}" class="member-photo silly">
-                </div>
-                <div class="member-name">{{ member.name }}</div>
-                <div class="member-blurb" id="{{ member.id }}-blurb">
-                    <p>{{ member.blurb }}</p>
-                </div>
-            </div>
-            {% endfor %}
-        </div>
-    </div>
 
     <!-- Newx7 Section -->
     <div class="year-section" id="newx7-section">
@@ -389,7 +382,7 @@ full-width: true
             </div>
         </div>
         
-        <div class="members-grid grid-2x2">
+        <div class="members-grid grid-3">
             {% for member in site.data.members.newx8.members %}
             <div class="member-card" id="{{ member.id }}">
                 <div class="member-photo-container" onclick="toggleBlurb('{{ member.id }}')">
@@ -420,8 +413,39 @@ full-width: true
             </div>
         </div>
         
-        <div class="members-grid grid-3-2">
+        <div class="members-grid grid-2x2">
             {% for member in site.data.members.newx9.members %}
+            <div class="member-card" id="{{ member.id }}">
+                <div class="member-photo-container" onclick="toggleBlurb('{{ member.id }}')">
+                    <img src="/assets/img/{{ member.headshot }}" alt="{{ member.name }}" class="member-photo normal">
+                    <img src="/assets/img/{{ member.silly }}" alt="{{ member.name }}" class="member-photo silly">
+                </div>
+                <div class="member-name">{{ member.name }}</div>
+                <div class="member-blurb" id="{{ member.id }}-blurb">
+                    <p>{{ member.blurb }}</p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <!-- Newx10 Section -->
+    <div class="year-section" id="newx10-section">
+        <h2 class="year-title">New x10 Phils</h2>
+        
+        <div class="slideshow" data-year="newx9">
+            {% for image in site.data.members.newx9.slideshow %}
+            <img src="/assets/img/{{ image }}" alt="Newx10 Group Photo" class="slideshow-image {% if forloop.first %}active{% endif %}">
+            {% endfor %}
+            <div class="slideshow-nav">
+                {% for image in site.data.members.newx10.slideshow %}
+                <div class="slideshow-dot {% if forloop.first %}active{% endif %}" data-index="{{ forloop.index0 }}"></div>
+                {% endfor %}
+            </div>
+        </div>
+        
+        <div class="members-grid grid-7">
+            {% for member in site.data.members.newx10.members %}
             <div class="member-card" id="{{ member.id }}">
                 <div class="member-photo-container" onclick="toggleBlurb('{{ member.id }}')">
                     <img src="/assets/img/{{ member.headshot }}" alt="{{ member.name }}" class="member-photo normal">
