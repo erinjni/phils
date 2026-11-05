@@ -60,10 +60,6 @@ full-width: true
         transition: opacity 1s ease-in-out;
     }
 
-    .slideshow-image[src$="newx7.1.webp"] {
-        object-position: center 20%;
-    }
-
     /* This one needs its full height shown */
     .slideshow-image[src$="newx7.3.webp"] {
         object-fit: contain;
